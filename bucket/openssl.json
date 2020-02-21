@@ -24,6 +24,7 @@
         "OPENSSL_LIB_DIR": "$dir\\lib",
         "OPENSSL_INCLUDE_DIR": "$dir\\include"
     },
+    "env_add_path": "bin",
     "checkver": "Win32 OpenSSL v([^\\s]+)",
     "autoupdate": {
         "architecture": {
