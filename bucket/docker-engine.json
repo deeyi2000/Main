@@ -19,12 +19,12 @@
     },
     "bin": [
         "dockerd.exe",
-        "docker.exe"
+        ["docker.exe", "docker", "-H :2375"]
     ],
     "post_install": [
         "$Command = \"net localgroup docker /add;\"",
         "$Command += \"net localgroup docker $(whoami) /add;\"",
-        "$Command += \"dockerd -G docker --register-service --experimental --data-root='$persist_dir' --storage-opt lcow.kirdpath='$(scoop prefix lcow)';\"",
+        "$Command += \"dockerd -H :2375 -G docker --register-service --experimental --data-root='$persist_dir' --storage-opt lcow.kirdpath='$(scoop prefix lcow)';\"",
         "Start-Process powershell.exe \"-noprofile -command $Command\" -Verb runas -Wait -WindowStyle Hidden"
     ],
     "uninstaller": {
