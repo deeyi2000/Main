@@ -3,8 +3,14 @@
     "license": "Apache-2.0",
     "version": "19.03.5",
     "description": "Run the latest master build of docker client and engine",
-    "url": "https://download.docker.com/components/engine/windows-server/19.03/docker-19.03.5.zip",
-    "hash": "4ce8e7df20cfa7bfc6e7733f79d5dda4fda7aec3606168adfc8ea3f50261fdab",
+    "url": [
+        "https://download.docker.com/components/engine/windows-server/19.03/docker-19.03.5.zip",
+        "https://raw.staticdn.net/deeyi2000/Main/master/scripts/docker-engine/daemon.json"
+    ],
+    "hash": [
+        "4ce8e7df20cfa7bfc6e7733f79d5dda4fda7aec3606168adfc8ea3f50261fdab",
+        "57412c5fe8c6692d21f8bf432a827f9921fb7a5d376e0d27783edf19368e1827"
+    ],
     "extract_dir": "docker",
     "depends": [
         "lcow"
@@ -19,12 +25,13 @@
     },
     "bin": [
         "dockerd.exe",
-        ["docker.exe", "docker", "-H :2375"]
+        "docker.exe"
     ],
+    "persist": "daemon.json",
     "post_install": [
         "$Command = \"net localgroup docker /add;\"",
         "$Command += \"net localgroup docker $(whoami) /add;\"",
-        "$Command += \"dockerd -H :2375 -G docker --register-service --experimental --data-root='$persist_dir' --storage-opt lcow.kirdpath='$(scoop prefix lcow)';\"",
+        "$Command += \"dockerd -G docker --register-service --data-root='$persist_dir' --storage-opt lcow.kirdpath='$(scoop prefix lcow)' --config-file='$persist_dir\\daemon.json';\"",
         "Start-Process powershell.exe \"-noprofile -command $Command\" -Verb runas -Wait -WindowStyle Hidden"
     ],
     "uninstaller": {
