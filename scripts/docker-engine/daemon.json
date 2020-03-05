@@ -1,0 +1,11 @@
+{
+    "experimental": true,
+    "hosts": [
+        "npipe:////./pipe/docker_engine",
+        ":2375"
+    ],
+    "registry-mirrors": [
+        "https://registry.docker-cn.com"
+    ],
+    "insecure-registries": []
+}
