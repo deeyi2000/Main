@@ -2,6 +2,7 @@
     "homepage": "https://github.com/derailed/k9s",
     "license": "Apache-2.0",
     "description": "Kubernetes CLI To Manage Your Clusters In Style!",
+<<<<<<< HEAD
     "version": "0.13.8",
     "architecture": {
         "64bit": {
@@ -11,6 +12,17 @@
         "32bit": {
             "url": "https://github.com/derailed/k9s/releases/download/v0.13.8/k9s_0.13.8_Windows_i386.tar.gz",
             "hash": "5c1feda72eb3ebb39163138bdd6577b9c88dfc6d3b6a3af3200b0b001b723bb0"
+=======
+    "version": "0.17.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/derailed/k9s/releases/download/v0.17.4/k9s_Windows_x86_64.tar.gz",
+            "hash": "f3a99bc752783e8757504b34bc8a8eb02fab9a976d5ffcaa9305d6434d6baf7c"
+        },
+        "32bit": {
+            "url": "https://github.com/derailed/k9s/releases/download/v0.17.4/k9s_Windows_i386.tar.gz",
+            "hash": "25120927629c1a089e2cd0e0a90ad815d281ea1dcf38056a3b297a26c8cbc2d8"
+>>>>>>> remotes/github/master
         }
     },
     "bin": "k9s.exe",
@@ -18,10 +30,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
+<<<<<<< HEAD
                 "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_$version_Windows_x86_64.tar.gz"
             },
             "32bit": {
                 "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_$version_Windows_i386.tar.gz"
+=======
+                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_i386.tar.gz"
+>>>>>>> remotes/github/master
             }
         },
         "hash": {

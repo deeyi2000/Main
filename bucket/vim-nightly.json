@@ -2,28 +2,48 @@
     "homepage": "https://www.vim.org",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "license": "Vim",
+<<<<<<< HEAD
     "version": "8.2.0292",
     "architecture": {
         "64bit": {
             "url": [
                 "https://github.com/vim/vim-win32-installer/releases/download/v8.2.0292/gvim_8.2.0292_x64.zip",
+=======
+    "version": "8.2.0357",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.0357/gvim_8.2.0357_x64.zip",
+>>>>>>> remotes/github/master
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
+<<<<<<< HEAD
                 "433c33fac3702a94fa88da4b1a62edfde66b67f35082c908192020002cda202e",
+=======
+                "76193136098de6e27d32b4bffac6036ad04e2d8435a0f05edee804247aaf42df",
+>>>>>>> remotes/github/master
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]
         },
         "32bit": {
             "url": [
+<<<<<<< HEAD
                 "https://github.com/vim/vim-win32-installer/releases/download/v8.2.0292/gvim_8.2.0292_x86.zip",
+=======
+                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.0357/gvim_8.2.0357_x86.zip",
+>>>>>>> remotes/github/master
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
+<<<<<<< HEAD
                 "111f22164a54c7115bbc6ae505b5e125135ae7ff058685dd32568de2a84522ee",
+=======
+                "02c83d2dd0815d5ce8c0d085036bb0761b07596078b04d6102242812343881c6",
+>>>>>>> remotes/github/master
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]

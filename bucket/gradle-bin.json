@@ -1,11 +1,19 @@
 {
     "homepage": "https://gradle.org",
     "description": "An open-source build automation tool focused on flexibility and performance. (Binaries only without documentation)",
+<<<<<<< HEAD
     "version": "6.2",
     "license": "Apache-2.0",
     "hash": "b93a5f30d01195ec201e240f029c8b42d59c24086b8d1864112c83558e23cf8a",
     "url": "https://services.gradle.org/distributions/gradle-6.2-bin.zip",
     "extract_dir": "gradle-6.2",
+=======
+    "version": "6.2.2",
+    "license": "Apache-2.0",
+    "hash": "0f6ba231b986276d8221d7a870b4d98e0df76e6daf1f42e7c0baec5032fb7d17",
+    "url": "https://services.gradle.org/distributions/gradle-6.2.2-bin.zip",
+    "extract_dir": "gradle-6.2.2",
+>>>>>>> remotes/github/master
     "bin": "bin\\gradle.bat",
     "suggest": {
         "JDK": [

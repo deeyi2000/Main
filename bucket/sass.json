@@ -1,6 +1,7 @@
 {
     "homepage": "https://github.com/sass/dart-sass",
     "description": "The reference implementation of Sass, written in Dart.",
+<<<<<<< HEAD
     "version": "1.25.0",
     "license": "MIT",
     "architecture": {
@@ -11,6 +12,18 @@
         "32bit": {
             "url": "https://github.com/sass/dart-sass/releases/download/1.25.0/dart-sass-1.25.0-windows-ia32.zip",
             "hash": "5fc30d95ad14713dbc5b3a8fcce56f0f1ffc7fbbfcfa1e979ce6ff93a53e64f7"
+=======
+    "version": "1.26.2",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sass/dart-sass/releases/download/1.26.2/dart-sass-1.26.2-windows-x64.zip",
+            "hash": "632c1991b0f62304d771d99b95bd9cbba03a468007c7e7b066120dfd7c9e4173"
+        },
+        "32bit": {
+            "url": "https://github.com/sass/dart-sass/releases/download/1.26.2/dart-sass-1.26.2-windows-ia32.zip",
+            "hash": "5c2adce26f783bbe980eebf48455ea6354ce37bd3e4e7dfa1997ee26df280efe"
+>>>>>>> remotes/github/master
         }
     },
     "extract_dir": "dart-sass",

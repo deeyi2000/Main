@@ -1,7 +1,11 @@
 {
     "homepage": "https://ravendb.net",
     "description": "NoSQL database built on .NET Core.",
+<<<<<<< HEAD
     "version": "4.2.8",
+=======
+    "version": "4.2.101",
+>>>>>>> remotes/github/master
     "license": {
         "identifier": "Freeware",
         "url": "https://ravendb.net/terms/commercial"
@@ -11,12 +15,21 @@
     },
     "architecture": {
         "32bit": {
+<<<<<<< HEAD
             "url": "https://daily-builds.s3.amazonaws.com/RavenDB-4.2.8-windows-x86.zip",
             "hash": "f3357901c4abab113ecd0a9f0595c535b534542866cd0d06a6bbf1cb257c6e1c"
         },
         "64bit": {
             "url": "https://daily-builds.s3.amazonaws.com/RavenDB-4.2.8-windows-x64.zip",
             "hash": "8c904d893304ed919e6a39cc82e1eb7c193a887f3d88e7b22f131aa5d29753ef"
+=======
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-4.2.101-windows-x86.zip",
+            "hash": "84e87b3f6be79581a683926e56f92e59fd3953ae4e52a156750492cbd8407d01"
+        },
+        "64bit": {
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-4.2.101-windows-x64.zip",
+            "hash": "d3d15d85158257ed9a3fc3da261a89124dca7ac630326adfc92ee647bf05c607"
+>>>>>>> remotes/github/master
         }
     },
     "installer": {

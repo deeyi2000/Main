@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "version": "2020.02.16",
+=======
+    "version": "2020.03.06",
+>>>>>>> remotes/github/master
     "description": "Download videos from YouTube.com (and a few more sites) using command line.",
     "homepage": "https://ytdl-org.github.io/youtube-dl/",
     "license": "Unlicense",
@@ -10,8 +14,13 @@
         ],
         "vcredist": "extras/vcredist2010"
     },
+<<<<<<< HEAD
     "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.02.16/youtube-dl.exe",
     "hash": "63a1a11cb7f78dd1aab0d16ba4c257f56683f07b15e1822dc8127cc867f4494e",
+=======
+    "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.03.06/youtube-dl.exe",
+    "hash": "8c62a6b969f2095a40e64cf837596dce8c1a4ab638c24782adc0ecc7a5ef0576",
+>>>>>>> remotes/github/master
     "bin": "youtube-dl.exe",
     "checkver": {
         "github": "https://github.com/ytdl-org/youtube-dl"
