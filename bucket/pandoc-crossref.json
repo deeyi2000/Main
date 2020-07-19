@@ -1,25 +1,26 @@
 {
+    "version": "0.3.7.0",
+    "description": "Pandoc filter for cross-references",
     "homepage": "https://hackage.haskell.org/package/pandoc-crossref",
-    "version": "0.3.6.2",
     "license": "GPL-2.0-or-later",
-    "description": "Pandoc filter for cross-references.",
+    "depends": "pandoc",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.6.2/windows-x86_64-pandoc_2.9.2.zip",
-            "hash": "75ac5da714fae4b41aef5c4767f7a6dcec5373ad7928483738044150f41226de"
+            "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.7.0/pandoc-crossref-Windows-2.10.7z",
+            "hash": "0ae331500b3b7c6049120a182b0306efa9ef453543ae7e46cd112d2927bfa63e"
         }
     },
+    "extract_dir": "windows-build",
     "bin": "pandoc-crossref.exe",
     "checkver": {
-        "url": "https://github.com/lierdakil/pandoc-crossref/releases/",
-        "re": "download/v(?<version>[\\w.]+)/windows-x86_64-pandoc_(?<pandoc>[\\d.]+).zip"
+        "github": "https://github.com/lierdakil/pandoc-crossref",
+        "regex": "download/v([\\w.]+)/pandoc-crossref-Windows-(?<pandoc>[\\d.]+)\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v$version/windows-x86_64-pandoc_$matchPandoc.zip"
+                "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v$version/pandoc-crossref-Windows-$matchPandoc.7z"
             }
         }
-    },
-    "depends": "pandoc"
+    }
 }

@@ -1,10 +1,10 @@
 {
-    "version": "5.245.0",
+    "version": "5.247.4",
     "description": "Dependency manager for .NET with support for NuGet and Git repositories",
     "homepage": "https://fsprojects.github.io/Paket/",
     "license": "MIT",
-    "url": "https://github.com/fsprojects/Paket/releases/download/5.245.0/paket.exe",
-    "hash": "42e11e7e43d8660da0bda9487a921328f3f249f3114152883d55483b43d0b6bb",
+    "url": "https://github.com/fsprojects/Paket/releases/download/5.247.4/paket.exe",
+    "hash": "17f3b54647491dcc246f1fd2099813de211446afa67c9aba359ceccada2ee6d8",
     "bin": "paket.exe",
     "checkver": {
         "github": "https://github.com/fsprojects/Paket"

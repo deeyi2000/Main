@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.nasm.us",
     "license": "BSD-2-Clause",
-    "version": "2.14.02",
+    "version": "2.15.03",
     "description": "80x86 and x86-64 assembler designed for portability and modularity.",
-    "extract_dir": "nasm-2.14.02",
+    "extract_dir": "nasm-2.15.03",
     "architecture": {
         "64bit": {
-            "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/win64/nasm-2.14.02-win64.zip",
-            "hash": "18918ac906e29417b936466e7a2517068206c8db8c04b9762a5befa18bfea5f0"
+            "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.15.03/win64/nasm-2.15.03-win64.zip",
+            "hash": "e598d1a9c98345f8436750f42d1f7c5d75ba739919eef37cd9ae8406e6a38802"
         },
         "32bit": {
-            "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/win32/nasm-2.14.02-win32.zip",
-            "hash": "250f9b5eeb2111e8c7b494a977490985b8604fe7518a6f5041cde37cc727a067"
+            "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.15.03/win32/nasm-2.15.03-win32.zip",
+            "hash": "91c8386c75af74caff4c4375b6c57ece036926b037623de7646cbfc8fe020e22"
         }
     },
     "bin": [

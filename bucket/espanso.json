@@ -1,12 +1,12 @@
 {
-    "version": "0.5.5",
-    "homepage": "https://espanso.org",
+    "version": "0.6.3",
     "description": "Text expander.",
+    "homepage": "https://espanso.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/federico-terzi/espanso/releases/download/v0.5.5/espanso-win-installer.exe",
-            "hash": "76e3d203a84bb782f334f822c9dc04cf99a2a4eabd4f0771231cebfb302a7132"
+            "url": "https://github.com/federico-terzi/espanso/releases/download/v0.6.3/espanso-win-installer.exe",
+            "hash": "b1fc7dd029b1c31ede9c308ab2b37a4febd61e6660669b3de6d3b1ac885774d5"
         }
     },
     "innosetup": true,

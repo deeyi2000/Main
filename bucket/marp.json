@@ -1,10 +1,10 @@
 {
-    "homepage": "https://github.com/marp-team/marp-cli",
-    "version": "0.17.4",
-    "license": "MIT",
+    "version": "0.19.0",
     "description": "A CLI interface for Marp and Marpit based converters",
-    "url": "https://github.com/marp-team/marp-cli/releases/download/v0.17.4/marp-cli-v0.17.4-win.zip",
-    "hash": "f40bbf56921581f16f6c7e510c2f3855b025be1f1d67fb7f5c8590460c738647",
+    "homepage": "https://github.com/marp-team/marp-cli",
+    "license": "MIT",
+    "url": "https://github.com/marp-team/marp-cli/releases/download/v0.19.0/marp-cli-v0.19.0-win.zip",
+    "hash": "680d3809f6401962134ebc7f6080da2893ddbd9ae1fdf2f76cba7aecf9ca7799",
     "bin": "marp.exe",
     "checkver": "github",
     "autoupdate": {

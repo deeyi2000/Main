@@ -2,15 +2,15 @@
     "homepage": "https://windows.php.net/",
     "description": "A popular general-purpose scripting language that is especially suited to web development. (thread safe)",
     "license": "PHP-3.01",
-    "version": "7.4.5",
+    "version": "7.4.8",
     "architecture": {
         "64bit": {
-            "url": "https://windows.php.net/downloads/releases/php-7.4.5-Win32-VC15-x64.zip",
-            "hash": "89f699dae7c67b164ddb9094a1383324b48814a42bbd222c771c0ff474eabf1b"
+            "url": "https://windows.php.net/downloads/releases/php-7.4.8-Win32-VC15-x64.zip",
+            "hash": "553767b9f8c4b55a23141e78b449cdd4a460e21521d3734fe91012ca715df4bf"
         },
         "32bit": {
-            "url": "https://windows.php.net/downloads/releases/php-7.4.5-Win32-VC15-x86.zip",
-            "hash": "55ca2403eba15059ab9b2c9c3c339c1ffe098f85a0f1bba89fad0d2af3775a0c"
+            "url": "https://windows.php.net/downloads/releases/php-7.4.8-Win32-VC15-x86.zip",
+            "hash": "46f8f620cbbe78121af9e71b3beba48b45f7c5c9ce639a8a48a69be12f3034ac"
         }
     },
     "bin": [

@@ -1,13 +1,13 @@
 {
     "homepage": "https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt",
     "description": "A standalone command line tools to run ReSharper inspections outside of Visual Studio.",
-    "version": "2020.1.1",
+    "version": "2020.1.4",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.jetbrains.com/resharper/buy/command_line_license.html"
     },
-    "url": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.1/JetBrains.ReSharper.CommandLineTools.2020.1.1.zip",
-    "hash": "2128589d6c3cc9b05bba6b973f95e11c15b8dfa6ce841d2cc49463d4129393ac",
+    "url": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.4/JetBrains.ReSharper.CommandLineTools.2020.1.4.zip",
+    "hash": "1528baf7db535644d5bd93d61f8be743d446365540c6e201c7b8ff37a0a47f52",
     "bin": [
         "cleanupcode.exe",
         "dupfinder.exe",

@@ -1,16 +1,16 @@
 {
-    "version": "6.8.0.105",
+    "version": "6.10.0.104",
     "description": "Cross platform, open source .NET framework.",
     "homepage": "https://www.mono-project.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.mono-project.com/archive/6.8.0/windows-installer/mono-6.8.0.105-x64-0.msi",
-            "hash": "dcbe043636f44623e397e43c8a552789cc747959bfcfbc202556cb6f32b47f1c"
+            "url": "https://download.mono-project.com/archive/6.10.0/windows-installer/mono-6.10.0.104-x64-0.msi",
+            "hash": "8c52108ac8cff1bd045601bdfbc3e93419b8a53f123c5cf4d2e597b7416b2fbf"
         },
         "32bit": {
-            "url": "https://download.mono-project.com/archive/6.8.0/windows-installer/mono-6.8.0.105-gtksharp-2.12.45-win32-0.msi",
-            "hash": "2e9431255d103bd63124fa43bd3a1b0f5a73f1dafb3e2fce5c102b2329b0be39"
+            "url": "https://download.mono-project.com/archive/6.10.0/windows-installer/mono-6.10.0.104-gtksharp-2.12.45-win32-0.msi",
+            "hash": "8c681dbe0490da1a412c2d8674c16522927ee204707c34494c5538b4032465d5"
         }
     },
     "extract_dir": "Mono",

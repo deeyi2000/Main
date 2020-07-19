@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.2",
     "description": "The slightly more awesome standard unix password manager for teams",
     "homepage": "https://www.gopass.pw/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gopasspw/gopass/releases/download/v1.9.0/gopass.exe-1.9.0-windows-amd64.zip",
-            "hash": "2807da008e411b3db9b6cc58b3334ff1f14b24bc2a83f9423703d857589e9d81"
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.9.2/gopass.exe-1.9.2-windows-amd64.zip",
+            "hash": "85a9dc72d66a2cb002ceca73ebe602fc0be83a28b2a0a77fc7e907731abccb14"
         }
     },
     "bin": "gopass.exe",
