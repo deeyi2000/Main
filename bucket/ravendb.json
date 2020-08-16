@@ -1,7 +1,7 @@
 {
     "homepage": "https://ravendb.net",
     "description": "NoSQL database built on .NET Core.",
-    "version": "4.2.103",
+    "version": "5.0.1",
     "license": {
         "identifier": "Freeware",
         "url": "https://ravendb.net/terms/commercial"
@@ -11,12 +11,12 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-4.2.103-windows-x86.zip",
-            "hash": "c5ba8d1812063bb0c81e31884c664b4abe11f007aa5cddec9ad69d66d1bcdd2b"
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.0.1-windows-x86.zip",
+            "hash": "2e7b892006b3f4bd57f01956babfd1d2925e1503f2a5aa92772cced1e92882b9"
         },
         "64bit": {
-            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-4.2.103-windows-x64.zip",
-            "hash": "f7fe29d336c6152955a302132f9030bbf5dbab5c5d375cb4586131813a429f2b"
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.0.1-windows-x64.zip",
+            "hash": "3488ccbda86d9c69c58e4e1bd524a7dfe15d9e6431fa7f603cf34cfa4b904f0a"
         }
     },
     "installer": {
