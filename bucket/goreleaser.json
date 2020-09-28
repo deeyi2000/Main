@@ -1,16 +1,16 @@
 {
-    "version": "0.141.0",
+    "version": "0.143.0",
     "description": "Release automation tool for Go projects.",
     "homepage": "https://goreleaser.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.141.0/goreleaser_Windows_x86_64.zip",
-            "hash": "6dea3f8eeb30c3d0c85c6c8a81c3051fbedc642e4eb62a2406dba4b547b84a4f"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.143.0/goreleaser_Windows_x86_64.zip",
+            "hash": "f441b300ba85b93b8cf296435793240b1657384cd71be3be27ff1718b95b4993"
         },
         "32bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.141.0/goreleaser_Windows_i386.zip",
-            "hash": "df0cb043db2cedfe4d480ceec95001188a2b9f2a049223f74accbe878ca1193a"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.143.0/goreleaser_Windows_i386.zip",
+            "hash": "d2f47539ed94f68b81e7789ac8ba5e70dfbe3f265c3ad9d73e3f710faee42634"
         }
     },
     "bin": "goreleaser.exe",

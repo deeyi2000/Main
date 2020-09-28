@@ -1,16 +1,16 @@
 {
-    "version": "4.5.0.33237",
+    "version": "4.7.0.33468",
     "description": "PowerShell cmdlets for developers and administrators to develop, deploy and manage Microsoft Azure applications.",
     "homepage": "https://aka.ms/azpsdocs",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Azure/azure-powershell/releases/download/v4.5.0-August2020/Az-Cmdlets-4.5.0.33237-x64.msi",
-            "hash": "58950389338cc20dcf597625d03feffb4df164f7ba80d0fe7edf75bb6ae322bc"
+            "url": "https://github.com/Azure/azure-powershell/releases/download/v4.7.0-September2020/Az-Cmdlets-4.7.0.33468-x64.msi",
+            "hash": "66c843c10c02fb45c59209ceb52f7295416cc302ca563d5fad8286b49152598c"
         },
         "32bit": {
-            "url": "https://github.com/Azure/azure-powershell/releases/download/v4.5.0-August2020/Az-Cmdlets-4.5.0.33237-x86.msi",
-            "hash": "dabbcb42fb4f4bde18714b26b607a9b79a0973bdfcf44143e92bf46a35bd6e11"
+            "url": "https://github.com/Azure/azure-powershell/releases/download/v4.7.0-September2020/Az-Cmdlets-4.7.0.33468-x86.msi",
+            "hash": "18c3801641ce5f61acb78745388a6760fbf6abf1b44c6c1e8138e61ce02571f1"
         }
     },
     "extract_dir": "WindowsPowerShell\\Modules",

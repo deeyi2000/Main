@@ -1,23 +1,23 @@
 {
-    "homepage": "https://julialang.org",
+    "version": "1.5.2",
     "description": "A programming language that is a fresh approach to technical computing.",
-    "version": "1.5.0",
+    "homepage": "https://julialang.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.0-win64.exe",
-            "hash": "4e7a488f81bec527d333f8f212ede0888297efa4c3596230d967b083a9c776be"
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.2-win64.exe",
+            "hash": "7f6deda3132795a646934fe9aa5446b6932c31bd70e34a2dd4d0ead5be915a2a"
         },
         "32bit": {
-            "url": "https://julialang-s3.julialang.org/bin/winnt/x86/1.5/julia-1.5.0-win32.exe",
-            "hash": "7a62c9aa5689f6a07e27f10d6c30ca3736bdcb6e42f0ab1895cb426fc8995b04"
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x86/1.5/julia-1.5.2-win32.exe",
+            "hash": "2473a2a86b0edaa0247e392c8ddb51eaa693690577537191ac47d4bcc84553dd"
         }
     },
     "innosetup": true,
     "bin": "bin\\julia.exe",
     "checkver": {
         "url": "https://julialang.org/downloads/",
-        "re": "Current stable release: v([\\d.]+)"
+        "regex": "Current stable release: v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

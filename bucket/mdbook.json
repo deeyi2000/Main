@@ -1,12 +1,12 @@
 {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "Create a book from markdown files.",
     "homepage": "https://github.com/rust-lang/mdBook",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rust-lang/mdBook/releases/download/v0.4.2/mdbook-v0.4.2-x86_64-pc-windows-msvc.zip",
-            "hash": "6c225ef79988bc6f171dd3c9ac6a86195b8e8bb0597cfaba6d48c479918f20b4"
+            "url": "https://github.com/rust-lang/mdBook/releases/download/v0.4.3/mdbook-v0.4.3-x86_64-pc-windows-msvc.zip",
+            "hash": "f320e7d588312a1de5f7a6bf0a7a41c141c05c8530ae2992d7677e7b1eed4fcf"
         }
     },
     "bin": "mdbook.exe",

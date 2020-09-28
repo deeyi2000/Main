@@ -1,5 +1,5 @@
 {
-    "version": "0.24.1",
+    "version": "0.24.3",
     "description": "Distributed Workflow Engine for Microservices Orchestration",
     "homepage": "https://zeebe.io",
     "license": {
@@ -14,11 +14,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zeebe-io/zeebe/releases/download/0.24.1/zeebe-distribution-0.24.1.zip",
-            "hash": "sha1:b70ac821d072d008806be219c11ba8eddd5ac905"
+            "url": "https://github.com/zeebe-io/zeebe/releases/download/0.24.3/zeebe-distribution-0.24.3.zip",
+            "hash": "sha1:58dfad8261aa810f0fdf61dd8f53505aea52790a"
         }
     },
-    "extract_dir": "zeebe-broker-0.24.1",
+    "extract_dir": "zeebe-broker-0.24.3",
     "bin": [
         [
             "bin\\broker.bat",
