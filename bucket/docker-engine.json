@@ -1,14 +1,14 @@
 {
     "homepage": "https://master.dockerproject.org",
     "license": "Apache-2.0",
-    "version": "19.03.5",
+    "version": "19.03.12",
     "description": "Run the latest master build of docker client and engine",
     "url": [
-        "https://download.docker.com/components/engine/windows-server/19.03/docker-19.03.5.zip",
+        "https://dockermsft.azureedge.net/dockercontainer/docker-19-03-12.zip",
         "https://raw.staticdn.net/deeyi2000/Main/master/scripts/docker-engine/daemon.json"
     ],
     "hash": [
-        "4ce8e7df20cfa7bfc6e7733f79d5dda4fda7aec3606168adfc8ea3f50261fdab",
+        "2e13aadc82cc2247cf617b4396e0d7948b333f5d5e4230141bc4dbdd6f2837e0",
         "e69c67671e1db04878e7557e6799f4341ec7c9352b0af7d10096c00258141147"
     ],
     "extract_dir": "docker",
