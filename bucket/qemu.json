@@ -2,15 +2,15 @@
     "homepage": "https://qemu.weilnetz.de/",
     "description": "A generic and open source machine emulator and virtualizer.",
     "license": "GPL-2.0-only",
-    "version": "5.1.0",
+    "version": "5.2.0-rc2",
     "architecture": {
         "64bit": {
-            "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-20200814.exe#/dl.7z",
-            "hash": "sha512:89fb2b94c924717cf1864613da65b8a0b2db4c4e7a6f41032c51d96e2615d00a7d3a8fdf89e86f77ff622bdb41159bc3bf42c9098deb2d9dc874345b43e32670"
+            "url": "https://qemu.weilnetz.de/w64/2020/qemu-w64-setup-20201124.exe#/dl.7z",
+            "hash": "sha512:90d3b4960edd06600b1cb2abeb94907cce6efb5a0afaa0414428d0de0aae01206f39df3882f0e9bae4b568d7d684d3caae125215989a493bb008bbfddad6aad7"
         },
         "32bit": {
-            "url": "https://qemu.weilnetz.de/w32/qemu-w32-setup-20200814.exe#/dl.7z",
-            "hash": "sha512:eed3cbd8fb5ddd98af7f4297b0b98feb8da605f289b2c5413bd6eaa5768ef885c1a3478a8369aad355bad6340ae8997fd867ca62989b1ef2147d6ed53e36ecf0"
+            "url": "https://qemu.weilnetz.de/w32/2020/qemu-w32-setup-20201124.exe#/dl.7z",
+            "hash": "sha512:44a2140d31d3549296865a4a548dafd1d28613b37a4c473a31bb76e6cf17f0e2c723aa2a698f8e359e5894ef3fe31a69cc392045d29241e2aaf77369d7e9777b"
         }
     },
     "bin": [
@@ -24,14 +24,14 @@
         "qemu-system-alphaw.exe",
         "qemu-system-arm.exe",
         "qemu-system-armw.exe",
+        "qemu-system-avr.exe",
+        "qemu-system-avrw.exe",
         "qemu-system-cris.exe",
         "qemu-system-crisw.exe",
         "qemu-system-hppa.exe",
         "qemu-system-hppaw.exe",
         "qemu-system-i386.exe",
         "qemu-system-i386w.exe",
-        "qemu-system-lm32.exe",
-        "qemu-system-lm32w.exe",
         "qemu-system-m68k.exe",
         "qemu-system-m68kw.exe",
         "qemu-system-microblaze.exe",
@@ -72,8 +72,6 @@
         "qemu-system-sparcw.exe",
         "qemu-system-tricore.exe",
         "qemu-system-tricorew.exe",
-        "qemu-system-unicore32.exe",
-        "qemu-system-unicore32w.exe",
         "qemu-system-x86_64.exe",
         "qemu-system-x86_64w.exe",
         "qemu-system-xtensa.exe",
@@ -87,15 +85,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z",
+                "url": "https://qemu.weilnetz.de/w64/$matchYear/qemu-w64-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z",
                 "hash": {
-                    "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-$matchYear$matchMonth$matchDay.sha512"
+                    "url": "https://qemu.weilnetz.de/w64/$matchYear/qemu-w64-setup-$matchYear$matchMonth$matchDay.sha512"
                 }
             },
             "32bit": {
-                "url": "https://qemu.weilnetz.de/w32/qemu-w32-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z",
+                "url": "https://qemu.weilnetz.de/w32/$matchYear/qemu-w32-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z",
                 "hash": {
-                    "url": "https://qemu.weilnetz.de/w32/qemu-w32-setup-$matchYear$matchMonth$matchDay.sha512"
+                    "url": "https://qemu.weilnetz.de/w32/$matchYear/qemu-w32-setup-$matchYear$matchMonth$matchDay.sha512"
                 }
             }
         }

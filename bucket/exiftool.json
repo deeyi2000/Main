@@ -1,11 +1,11 @@
 {
-    "homepage": "https://exiftool.org",
+    "version": "12.12",
     "description": "A command-line application for reading, writing and editing meta information in a wide variety of files.",
-    "version": "12.06",
+    "homepage": "https://exiftool.org",
     "license": "GPL-1.0-or-later|Artistic-1.0-Perl",
-    "url": "https://exiftool.org/exiftool-12.06.zip",
-    "hash": "sha1:40c2c4dd9f89961b40aa582d8ec0aad2fce8b236",
-    "pre_install": "Copy-Item \"$dir/exiftool(-k).exe\" \"$dir/exiftool.exe\"",
+    "url": "https://exiftool.org/exiftool-12.12.zip",
+    "hash": "sha1:1cc75767b204f953ac61f464a56a6992858d0602",
+    "pre_install": "Copy-Item \"$dir\\exiftool(-k).exe\" \"$dir\\exiftool.exe\"",
     "bin": [
         "exiftool.exe",
         "exiftool(-k).exe"
@@ -18,7 +18,7 @@
         "url": "https://exiftool.org/exiftool-$version.zip",
         "hash": {
             "url": "$baseurl/checksums.txt",
-            "regex": "SHA1\\($basename\\)= $sha1"
+            "regex": "SHA1\\($basename\\)=\\s*$sha1"
         }
     }
 }

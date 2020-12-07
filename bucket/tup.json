@@ -1,13 +1,13 @@
 {
     "homepage": "http://gittup.org",
     "description": "A file-based build system for Linux, OSX, and Windows.",
-    "version": "0.7.9",
+    "version": "0.7.10",
     "license": {
         "identifier": "GPL-2.0-or-later|Proprietary",
         "url": "https://github.com/gittup/tup/blob/master/docs/html/license.html"
     },
     "url": "http://gittup.org/tup/win32/tup-latest.zip",
-    "hash": "fbb8aeac9b7edd82f4a20f273ab8a1fdf380468485943385cb72ce8150c6cdef",
+    "hash": "ddd59f2713cc4bf8e25087460936ac8cf644013f52dbe83d0a0e7587fb7a4d61",
     "bin": "tup.exe",
     "checkver": {
         "url": "http://gittup.org/tup/win32",

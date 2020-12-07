@@ -1,10 +1,11 @@
 {
-    "version": "1.10.13",
-    "homepage": "https://getcomposer.org/",
+    "version": "1.10.19",
     "description": "Dependency Manager for PHP",
+    "homepage": "https://getcomposer.org/",
     "license": "MIT",
-    "url": "https://getcomposer.org/download/1.10.13/composer.phar",
-    "hash": "5ca7445cfd48dd27c5a84aa005a47b4d9fd91132313830609875df3a6973708f",
+    "notes": "'composer selfupdate' is aliased to 'scoop update composer'",
+    "url": "https://getcomposer.org/download/1.10.19/composer.phar",
+    "hash": "688bf8f868643b420dded326614fcdf969572ac8ad7fbbb92c28a631157d39e8",
     "pre_install": [
         "@(",
         "    'if ($args.length -eq 1 -and ($args -eq \"selfupdate\" -or $args -eq \"self-update\")) { & scoop update composer }'",
@@ -27,7 +28,6 @@
             "php-nts"
         ]
     },
-    "notes": "'composer selfupdate' is aliased to 'scoop update composer'",
     "checkver": {
         "github": "https://github.com/composer/composer"
     },

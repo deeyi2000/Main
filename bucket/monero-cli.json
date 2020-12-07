@@ -1,17 +1,17 @@
 {
-    "homepage": "https://getmonero.org/",
+    "version": "0.17.1.5",
     "description": "The secure, private, untraceable cryptocurrency (CLI)",
-    "version": "0.17.0.0",
+    "homepage": "https://getmonero.org/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.17.0.0.zip",
-            "hash": "8b84b4c9820a9b0f5e010079ceaf622936cbf4a5cec6de099c2dbbaf3cf47b73",
+            "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.17.1.5.zip",
+            "hash": "4bb0fca53bc58c1167bc0a258f61dd69a54507fd83ad37edf4213b4f30df8c94",
             "extract_dir": "monero-x86_64-w64-mingw32"
         },
         "32bit": {
-            "url": "https://dlsrc.getmonero.org/cli/monero-win-x86-v0.17.0.0.zip",
-            "hash": "bd92b31b82d4349416f2bac6d9d76404c526f9e546f90cc9806084badccd9de8",
+            "url": "https://dlsrc.getmonero.org/cli/monero-win-x86-v0.17.1.5.zip",
+            "hash": "7dc0565a2880b38e73d85599153a31bbed85965963c6f74e1a5cf6dbd06f619e",
             "extract_dir": "monero-i686-w64-mingw32"
         }
     },
@@ -36,7 +36,7 @@
     ],
     "checkver": {
         "url": "https://getmonero.org/downloads/hashes.txt",
-        "re": "monero-win-x64-v([\\d.]+).zip"
+        "regex": "monero-win-x64-v([\\d.]+)\\.zip"
     },
     "autoupdate": {
         "architecture": {

@@ -1,12 +1,12 @@
 {
-    "version": "1.8.18",
+    "version": "1.8.23",
     "description": "A fast tunnel proxy",
     "homepage": "https://shadowsocks.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.8.18/shadowsocks-v1.8.18.x86_64-pc-windows-msvc.zip",
-            "hash": "bedb06de5442df130ef5d379c52b544f3395485819036491d2494080c5dcd5d1"
+            "url": "https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.8.23/shadowsocks-v1.8.23.x86_64-pc-windows-msvc.zip",
+            "hash": "26b1bd341b8d3b34e7369192ddd27d2fef87a0a797c184e2c4233dda76ba9f35"
         }
     },
     "bin": [
