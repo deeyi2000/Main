@@ -1,18 +1,18 @@
 {
-    "homepage": "https://nodejs.org",
+    "version": "14.15.4",
     "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
-    "version": "14.15.1",
+    "homepage": "https://nodejs.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nodejs.org/dist/v14.15.1/node-v14.15.1-win-x64.7z",
-            "hash": "7025776c82bb5a39b6823f6201a34ca5951f8d5baa16ff7850c4c0daff319f32",
-            "extract_dir": "node-v14.15.1-win-x64"
+            "url": "https://nodejs.org/dist/v14.15.4/node-v14.15.4-win-x64.7z",
+            "hash": "1da86f92f158e53ee79469daf5e6a3e3f2e6e7c233bbf4b91ab12e1ca9503444",
+            "extract_dir": "node-v14.15.4-win-x64"
         },
         "32bit": {
-            "url": "https://nodejs.org/dist/v14.15.1/node-v14.15.1-win-x86.7z",
-            "hash": "e86d3e6665bd82296e0c9b951ebd3e8397f185788b5df85bc25861629ca3877d",
-            "extract_dir": "node-v14.15.1-win-x86"
+            "url": "https://nodejs.org/dist/v14.15.4/node-v14.15.4-win-x86.7z",
+            "hash": "e631956bbf65cb046c7d38d0f0a4633755e86df1ff5f37c3610d55f706c1f0c0",
+            "extract_dir": "node-v14.15.4-win-x86"
         }
     },
     "persist": [
@@ -29,7 +29,7 @@
     ],
     "checkver": {
         "url": "https://nodejs.org/en/download/",
-        "re": "LTS Version: <strong>([\\d.]+)</strong>"
+        "regex": "LTS Version: <strong>([\\d.]+)</strong>"
     },
     "autoupdate": {
         "architecture": {

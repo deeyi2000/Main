@@ -1,16 +1,16 @@
 {
-    "version": "1.37.4",
+    "version": "1.37.6",
     "description": "A .NET development platform based on roslyn workspaces",
     "homepage": "http://www.omnisharp.net",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.37.4/omnisharp-win-x64.zip",
-            "hash": "79c15179a7351f2443a68d8c906bbc7e8e0c2c0c0c49f0ea0c69b04908ce0ac1"
+            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.37.6/omnisharp-win-x64.zip",
+            "hash": "c2b0282e0aafe41a29c944713980692edce1460906ef94ea4e39371b40aecb7b"
         },
         "32bit": {
-            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.37.4/omnisharp-win-x86.zip",
-            "hash": "41642b4adde9fd19fa8e44e6554f174aa071884656c55c16c2e45aecb1e3a353"
+            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.37.6/omnisharp-win-x86.zip",
+            "hash": "b23e52aa250a825218157c8102c432053f20a146b3e183fc39f2c2a310319dc4"
         }
     },
     "bin": "omnisharp.exe",

@@ -1,7 +1,7 @@
 {
-    "homepage": "https://ravendb.net",
+    "version": "5.1.4",
     "description": "NoSQL database built on .NET Core.",
-    "version": "5.1.1",
+    "homepage": "https://ravendb.net",
     "license": {
         "identifier": "Freeware",
         "url": "https://ravendb.net/terms/commercial"
@@ -10,13 +10,13 @@
         "Visual C++ Redistributable 2015": "extras/vcredist2015"
     },
     "architecture": {
-        "32bit": {
-            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.1.1-windows-x86.zip",
-            "hash": "a204712dd18b246eec44a8a31df04915ad1415e425c87f848ee3042845df646e"
-        },
         "64bit": {
-            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.1.1-windows-x64.zip",
-            "hash": "cd097f1c3be548e1dd2895622b0d4ddcb9df316022a1918a395ade836df5b25d"
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.1.4-windows-x64.zip",
+            "hash": "26b58994f3132015792f3f1c03e84f1c78dffd85e4fa404c798f6fcf596c75ca"
+        },
+        "32bit": {
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.1.4-windows-x86.zip",
+            "hash": "6a2a9e998e4c3cc952df28a42085e051436dd4f01949c0b1c897361766629735"
         }
     },
     "installer": {
@@ -50,11 +50,11 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://daily-builds.s3.amazonaws.com/RavenDB-$version-windows-x86.zip"
-            },
             "64bit": {
                 "url": "https://daily-builds.s3.amazonaws.com/RavenDB-$version-windows-x64.zip"
+            },
+            "32bit": {
+                "url": "https://daily-builds.s3.amazonaws.com/RavenDB-$version-windows-x86.zip"
             }
         }
     }
