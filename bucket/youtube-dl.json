@@ -1,5 +1,5 @@
 {
-    "version": "2021.01.24.1",
+    "version": "2021.03.25",
     "description": "Download videos from YouTube.com (and a few more sites) using command line.",
     "homepage": "https://yt-dl.org/",
     "license": "Unlicense",
@@ -10,8 +10,8 @@
         ],
         "vcredist": "extras/vcredist2010"
     },
-    "url": "https://yt-dl.org/downloads/2021.01.24.1/youtube-dl.exe",
-    "hash": "2345311b6899a1bf78a43b3e3efd2c7b27dbc47da165435c41fde7a4442dd292",
+    "url": "https://yt-dl.org/downloads/2021.03.25/youtube-dl.exe",
+    "hash": "eb3b4e51f46c39596429f3f97c3aa13f0fd4c5c6e8afce88460607725e033094",
     "bin": "youtube-dl.exe",
     "checkver": "v([\\d.]+)",
     "autoupdate": {

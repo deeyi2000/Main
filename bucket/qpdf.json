@@ -1,19 +1,19 @@
 {
-    "version": "10.1.0",
+    "version": "10.3.1",
     "description": "A command-line program that does structural, content-preserving transformations on PDF files.",
     "homepage": "http://qpdf.sourceforge.net/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.1.0/qpdf-10.1.0-bin-mingw64.zip",
-            "hash": "sha1:621d340fa1e449130579a915868022c32ed96672"
+            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.3.1/qpdf-10.3.1-bin-mingw64.zip",
+            "hash": "sha1:0a034897871a1fd31ddf3e911c11c5034f0d6a08"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.1.0/qpdf-10.1.0-bin-mingw32.zip",
-            "hash": "sha1:3f726670c78c39aa5c77a5dc20a98a01ce7b5c87"
+            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.3.1/qpdf-10.3.1-bin-mingw32.zip",
+            "hash": "sha1:b504632779eb63cdac246e9aea8807ebf8ead304"
         }
     },
-    "extract_dir": "qpdf-10.1.0",
+    "extract_dir": "qpdf-10.3.1",
     "bin": "bin\\qpdf.exe",
     "checkver": {
         "github": "https://github.com/qpdf/qpdf",

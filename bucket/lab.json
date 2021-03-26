@@ -1,16 +1,16 @@
 {
-    "version": "0.19.0",
+    "version": "0.21.0",
     "description": "An extension to command-line git that helps with everyday GitLab tasks.",
     "homepage": "https://zaquestion.github.io/lab",
     "license": "CC0-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zaquestion/lab/releases/download/v0.19.0/lab_0.19.0_windows_amd64.tar.gz",
-            "hash": "d0b812e8272cc7b36a82cd9c431af15d552ed3abd2a252921283b3296927109d"
+            "url": "https://github.com/zaquestion/lab/releases/download/v0.21.0/lab_0.21.0_windows_amd64.tar.gz",
+            "hash": "980ace960e1f974f17e4ca3c30d43b3b9f3f313094689b5ed439ed834dca808b"
         },
         "32bit": {
-            "url": "https://github.com/zaquestion/lab/releases/download/v0.19.0/lab_0.19.0_windows_386.tar.gz",
-            "hash": "25b9c481f35997f5db3d895560d54f3b901c78d105b0ea4e7068e86ec41c243c"
+            "url": "https://github.com/zaquestion/lab/releases/download/v0.21.0/lab_0.21.0_windows_386.tar.gz",
+            "hash": "0a73600958ea809e5aaed638889319e1072dd1752b7f3b9ede4a49f3d786d6e6"
         }
     },
     "bin": "lab.exe",

@@ -1,0 +1,23 @@
+{
+    "version": "1.4.0",
+    "description": "A tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate.",
+    "homepage": "https://aws.github.io/copilot-cli/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aws/copilot-cli/releases/download/v1.4.0/copilot-windows.exe#/copilot.exe",
+            "hash": "5a689f33256178d73c4b88e62e875a4e81165ba03acb2ac48d8ed494fcdc4a33"
+        }
+    },
+    "bin": "copilot.exe",
+    "checkver": {
+        "github": "https://github.com/aws/copilot-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aws/copilot-cli/releases/download/v$version/copilot-windows.exe#/copilot.exe"
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "version": "1.1.1i",
+    "version": "1.1.1k",
     "description": "TLS/SSL toolkit",
     "homepage": "https://slproweb.com/products/Win32OpenSSL.html",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://slproweb.com/download/Win64OpenSSL-1_1_1i.exe",
-            "hash": "20bca2b22ae0ca9e592820828edfe07781a25cbc14c925495a74e5f1f32b541c"
+            "url": "https://slproweb.com/download/Win64OpenSSL-1_1_1k.exe",
+            "hash": "e04b056b83572e8395aa680733fb988c6fc005b86e45f9ac0569796dfcbeaf13"
         },
         "32bit": {
-            "url": "https://slproweb.com/download/Win32OpenSSL-1_1_1i.exe",
-            "hash": "7146a4c2f9b5efe51ef7d7e431ef49daad73cdddc73ab455637595ad25a0d02a"
+            "url": "https://slproweb.com/download/Win32OpenSSL-1_1_1k.exe",
+            "hash": "ff2e8168216e279b9a537d2281f7240ccf4629e23139d71d981af63bc537c9d9"
         }
     },
     "innosetup": true,

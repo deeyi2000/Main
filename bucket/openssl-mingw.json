@@ -1,18 +1,18 @@
 {
-    "version": "1.1.1i_2",
+    "version": "1.1.1k_5",
     "description": "A robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.",
     "homepage": "https://curl.haxx.se/windows/",
     "license": "OpenSSL",
     "architecture": {
         "64bit": {
-            "url": "https://curl.haxx.se/windows/dl-7.74.0_2/openssl-1.1.1i_2-win64-mingw.tar.xz",
-            "hash": "0f32f41c698879c76aeb9c1dfd3f79725b7c522d998316e13d29e5ca5ae81e5d",
-            "extract_dir": "openssl-1.1.1i_2-win64-mingw"
+            "url": "https://curl.haxx.se/windows/dl-7.75.0_5/openssl-1.1.1k_5-win64-mingw.tar.xz",
+            "hash": "9cd6bca56adfe653b3a84468b1cc70fbe016c2a0e118dfdce45fa7029c7cc1d9",
+            "extract_dir": "openssl-1.1.1k_5-win64-mingw"
         },
         "32bit": {
-            "url": "https://curl.haxx.se/windows/dl-7.74.0_2/openssl-1.1.1i_2-win32-mingw.tar.xz",
-            "hash": "f0ccccb8b258fb2a942bb666fd9c32224cd86648eb3c02a9becbe8c1c2dca123",
-            "extract_dir": "openssl-1.1.1i_2-win32-mingw"
+            "url": "https://curl.haxx.se/windows/dl-7.75.0_5/openssl-1.1.1k_5-win32-mingw.tar.xz",
+            "hash": "34ec560825ac15ee4bbdb416b12b2c508e233a200f4388fe15be354ff9a27281",
+            "extract_dir": "openssl-1.1.1k_5-win32-mingw"
         }
     },
     "bin": "openssl.exe",

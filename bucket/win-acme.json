@@ -1,16 +1,16 @@
 {
-    "version": "2.1.14.992",
+    "version": "2.1.16.1030",
     "description": "A Simple ACME Client",
     "homepage": "https://www.win-acme.com",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/win-acme/win-acme/releases/download/v2.1.14/win-acme.v2.1.14.992.x64.trimmed.zip",
-            "hash": "e579708377c2719438307ff280681829e69e9e6bacd10ed45cca5199b885a96b"
+            "url": "https://github.com/win-acme/win-acme/releases/download/v2.1.16/win-acme.v2.1.16.1030.x64.trimmed.zip",
+            "hash": "9c00a7efcb65c9317b353b2ae82190213df1196c69aad5c2db76347117071768"
         },
         "32bit": {
-            "url": "https://github.com/win-acme/win-acme/releases/download/v2.1.14/win-acme.v2.1.14.992.x86.trimmed.zip",
-            "hash": "0bf1b0d06c6d2315bee68eff499f624cdaec101b902640a819f4ecb759b20e5a"
+            "url": "https://github.com/win-acme/win-acme/releases/download/v2.1.16/win-acme.v2.1.16.1030.x86.trimmed.zip",
+            "hash": "729578434ad1ae6e74af0b24c134b080797fbb5c7e848911c22a4ef222d880b7"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\settings.json\")) { Copy-Item \"$dir\\settings_default.json\" \"$dir\\settings.json\" }",

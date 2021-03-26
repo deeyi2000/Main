@@ -1,12 +1,12 @@
 {
-    "version": "1.21.1",
+    "version": "1.22.0",
     "description": "Manage Flux from the Command Line.",
     "homepage": "https://github.com/fluxcd/flux",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fluxcd/flux/releases/download/1.21.1/fluxctl_windows_amd64#/fluxctl.exe",
-            "hash": "fd8c3b2330585691f56c58b7a5e429bd71d156fea6f33af4e06bb5a1f10881a5"
+            "url": "https://github.com/fluxcd/flux/releases/download/1.22.0/fluxctl_windows_amd64#/fluxctl.exe",
+            "hash": "8848a5d00ddf9e1811801c1a9eba103640df56d004595ed8cfec86c70ce8fc4f"
         }
     },
     "bin": "fluxctl.exe",

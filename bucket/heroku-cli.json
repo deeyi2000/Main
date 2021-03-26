@@ -1,16 +1,16 @@
 {
-    "version": "7.47.11",
+    "version": "7.51.0",
     "description": "An essential part of using Heroku, which can perform nearly any Heroku-related task right from your terminal.",
     "homepage": "https://devcenter.heroku.com/articles/heroku-cli",
     "license": "ISC",
     "architecture": {
         "64bit": {
             "url": "https://cli-assets.heroku.com/heroku-win32-x64.tar.xz#/dl.xz",
-            "hash": "0dd7419f9297848cfd50910e325736c4911439889e98bf163ceddfd943ed1e31"
+            "hash": "1a131882e5de13c939d729969845c8377ad17f1a7dffabfb22f1787a2b4d8a8c"
         },
         "32bit": {
             "url": "https://cli-assets.heroku.com/heroku-win32-x86.tar.xz#/dl.xz",
-            "hash": "c8582ef72a7757a0af8baf9a2653f35a8e23c7a99e4d31b699104a651a6b648c"
+            "hash": "a7a478957aa005cbd2da8a9722be8fc02f780d6754366d1908bed41b2197d064"
         }
     },
     "pre_install": [

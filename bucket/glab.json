@@ -1,16 +1,16 @@
 {
-    "version": "1.14.0",
+    "version": "1.16.0",
     "description": "GitLab CLI",
     "homepage": "https://github.com/profclems/glab",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "http://github.com/profclems/glab/releases/download/v1.14.0/glab_1.14.0_windows_x86_64.zip",
-            "hash": "019f967387c92b665515e2074d5890937045098c468182aa6219aef2bd63b6ae"
+            "url": "http://github.com/profclems/glab/releases/download/v1.16.0/glab_1.16.0_windows_x86_64.zip",
+            "hash": "a962dd44e956ad87902b757a5f5ed3b26f968c3c087c9f7f3208a8682d84bb16"
         },
         "32bit": {
-            "url": "http://github.com/profclems/glab/releases/download/v1.14.0/glab_1.14.0_windows_i386.zip",
-            "hash": "dc7854f6a3b5e070ab28acabd6fb1cfde0d4b2f5b91f19caf1f7a81ce5321635"
+            "url": "http://github.com/profclems/glab/releases/download/v1.16.0/glab_1.16.0_windows_i386.zip",
+            "hash": "a8a9529d54fdf1e7d6ffddecb05893a810259e9bdc20054f246d56f0ec524cdd"
         }
     },
     "bin": "bin\\glab.exe",
