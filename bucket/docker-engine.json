@@ -1,14 +1,14 @@
 {
     "homepage": "https://master.dockerproject.org",
     "license": "Apache-2.0",
-    "version": "19.03.14",
+    "version": "20.10.4",
     "description": "Run the latest master build of docker client and engine",
     "url": [
-        "https://dockermsft.azureedge.net/dockercontainer/docker-19-03-14.zip",
+        "https://dockermsft.azureedge.net/dockercontainer/docker-20-10-4.zip",
         "https://cdn.jsdelivr.net/gh/deeyi2000/Main@master/scripts/docker-engine/daemon.json"
     ],
     "hash": [
-        "0f4cd341a9d268fab3f5e0b9dfbf58f75a053af64efe82ea9552c055741b926d",
+        "86BB854F114B0237BCC28D4AEBF551D13D709A2CF24F22321368F3CCE042B540",
         "0334c197c84a94443243ea6eb7c5c34f3b934906711fcfd00b6006c27d2478fe"
     ],
     "extract_dir": "docker",
