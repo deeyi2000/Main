@@ -1,16 +1,16 @@
 {
-    "version": "1.51.0",
+    "version": "1.52.1",
     "description": "A language empowering everyone to build reliable and efficient software. (MSVC toolchain)",
     "homepage": "https://www.rust-lang.org",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://static.rust-lang.org/dist/rust-1.51.0-x86_64-pc-windows-msvc.msi",
-            "hash": "a866422d0dcce4a214184ae90bee22fa5e26c3be2173651dced786dd6f91bb9b"
+            "url": "https://static.rust-lang.org/dist/rust-1.52.1-x86_64-pc-windows-msvc.msi",
+            "hash": "ba527961a4a06e1a0505ce98c75db8ed92189ab5c92f82d20034b8a638f3a869"
         },
         "32bit": {
-            "url": "https://static.rust-lang.org/dist/rust-1.51.0-i686-pc-windows-msvc.msi",
-            "hash": "7e0b50a5c6aa7414ee0cb76d29a538b5fb51ea0a61aa311915201228795873c8"
+            "url": "https://static.rust-lang.org/dist/rust-1.52.1-i686-pc-windows-msvc.msi",
+            "hash": "189a63a51c2e1f4d5ed85ee2f1c044456c87cc09858431257c630012fe8f0de5"
         }
     },
     "extract_dir": "Rust",

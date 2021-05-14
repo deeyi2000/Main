@@ -1,12 +1,12 @@
 {
-    "version": "1.28.6",
+    "version": "1.29.2",
     "description": "Define and run multi-container applications with Docker",
     "homepage": "https://github.com/docker/compose",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/docker/compose/releases/download/1.28.6/docker-compose-Windows-x86_64.exe#/docker-compose.exe",
-            "hash": "8fa80d465d436f577ed5bf9ea39795f80812b37867fdc0c84a27f0c14dc29fe3"
+            "url": "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Windows-x86_64.exe#/docker-compose.exe",
+            "hash": "94c3c634e21532eb9783057eac5235ca44b3e14a4c34e73d7eb6b94a2544cc12"
         }
     },
     "bin": "docker-compose.exe",

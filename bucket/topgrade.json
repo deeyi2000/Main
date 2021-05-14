@@ -1,12 +1,12 @@
 {
-    "version": "6.7.0",
+    "version": "6.9.0",
     "description": "Upgrade everything, keep your system up to date by detecting which tools you use and run their appropriate package managers.",
     "homepage": "https://github.com/r-darwish/topgrade",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/r-darwish/topgrade/releases/download/v6.7.0/topgrade-v6.7.0-x86_64-pc-windows-msvc.zip",
-            "hash": "e94eaca8c097d3eac3cbbc4a3df3c7d30087630b084c629bb8956ceb7bdaacc0"
+            "url": "https://github.com/r-darwish/topgrade/releases/download/v6.9.0/topgrade-v6.9.0-x86_64-pc-windows-msvc.zip",
+            "hash": "c9bdf0a21c115faecbac45e4d3237fe6c70f38c01327d81fb47b49bdac06d85d"
         }
     },
     "bin": "topgrade.exe",

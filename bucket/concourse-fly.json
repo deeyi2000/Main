@@ -1,12 +1,12 @@
 {
-    "version": "7.1.0",
+    "version": "7.2.0",
     "description": "Concourse CI/CD manager and controller",
     "homepage": "https://concourse-ci.org/fly.html",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/concourse/concourse/releases/download/v7.1.0/fly-7.1.0-windows-amd64.zip",
-            "hash": "sha1:35ae0a7f1c4abae25a0380daa08acbb255dc4fd1"
+            "url": "https://github.com/concourse/concourse/releases/download/v7.2.0/fly-7.2.0-windows-amd64.zip",
+            "hash": "sha1:8a63d952340742d49e22f7a2ff3e182a1e9b1264"
         }
     },
     "bin": "fly.exe",

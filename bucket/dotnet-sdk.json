@@ -1,5 +1,5 @@
 {
-    "version": "5.0.201",
+    "version": "5.0.203",
     "description": ".NET is a free, cross-platform, open source developer platform for building many different types of applications.",
     "homepage": "https://www.microsoft.com/net/",
     "license": "MIT",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.201/dotnet-sdk-5.0.201-win-x64.zip",
-            "hash": "sha512:e7e1a2e27a91226974804c3949d3ee097b7d7a7ff9ccdbfb1afad742eb5c1ea20487f580f8266aa1d1fb9fb90ab0643c2c3a14e30dedf9f3a339768654dd567d"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.203/dotnet-sdk-5.0.203-win-x64.zip",
+            "hash": "sha512:762ad53d66b893cb2cdf61540794a4a1e20b127e371f57f912ad8ebd4102aabf32366ebaabfe90aa362c1fae0bec0aa7ac6af35c6c0153fb913cd4c532149238"
         },
         "32bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.201/dotnet-sdk-5.0.201-win-x86.zip",
-            "hash": "sha512:630d12d0f240f5f7abbc44dc8e702621b458b413723e554f9fe806f9dca33a601c80cd6cffe877cdb249a397fd7d417f4fde0bdc84ed55d40bd675c6241cb588"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.203/dotnet-sdk-5.0.203-win-x86.zip",
+            "hash": "sha512:270d97cba2aaf27da23a0141f7e5d9fa1debd4fe5eaa95375e49587e55d213e46aa554e35b7cdf045c3a1914acf5746ac2c94a2145a2825a9be327ef351e3d7d"
         }
     },
     "bin": "dotnet.exe",

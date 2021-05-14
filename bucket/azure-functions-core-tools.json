@@ -1,17 +1,17 @@
 {
     "##": "Rename download file because 7-zip can't decompress it as zip file.",
-    "version": "3.0.3388",
+    "version": "3.0.3528",
     "description": "Microsoft Azure Functions Core Tools",
     "homepage": "https://github.com/Azure/azure-functions-core-tools",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/3.0.3388/Azure.Functions.Cli.win-x64.3.0.3388.zip#/dl.7z",
-            "hash": "10b202ecd6b63a378adf62a599091a0d71fb68fb719261bf04cda677b1591819"
+            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/3.0.3528/Azure.Functions.Cli.win-x64.3.0.3528.zip#/dl.7z",
+            "hash": "bfd0359b912c498f70d34620bfa2712735fa1482c9d453edcbd7c65f98ebe534"
         },
         "32bit": {
-            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/3.0.3388/Azure.Functions.Cli.win-x86.3.0.3388.zip#/dl.7z",
-            "hash": "ab28b784c22282365d5a39ef3f2cb03ab059ec2b483721600a0c2334aef74dfc"
+            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/3.0.3528/Azure.Functions.Cli.win-x86.3.0.3528.zip#/dl.7z",
+            "hash": "83478b84d66ed52e508e12a926666e1ad85fb9b7e7e091820b52f7ae3aae5bcd"
         }
     },
     "bin": "func.exe",

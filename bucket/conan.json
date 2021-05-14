@@ -1,16 +1,16 @@
 {
-    "version": "1.34.1",
+    "version": "1.36.0",
     "description": "The open-source, decentralized C/C++ package manager",
     "homepage": "https://conan.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/conan-io/conan/releases/download/1.34.1/conan-win-64_1_34_1.exe",
-            "hash": "c2226f92f7919df5e32949372a0f195331b5d1ca555d05ea9d57a9ef6e5c0f6f"
+            "url": "https://github.com/conan-io/conan/releases/download/1.36.0/conan-win-64.exe",
+            "hash": "906021184407a29a55926678ce144d5801c16c4b80d57a9724076413c9a8df95"
         },
         "32bit": {
-            "url": "https://github.com/conan-io/conan/releases/download/1.34.1/conan-win-32_1_34_1.exe",
-            "hash": "89157e43ffd69ec133a8fa6a96e1cd67c774e698d1c8269fb57154e834124fd8"
+            "url": "https://github.com/conan-io/conan/releases/download/1.36.0/conan-win-32.exe",
+            "hash": "0760a89d7b7a28ff9ce6e25ab37d9272016a884b142cd14cd340f46bb73291b4"
         }
     },
     "innosetup": true,
@@ -25,14 +25,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-64_$underscoreVersion.exe"
+                "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-64.exe"
             },
             "32bit": {
-                "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-32_$underscoreVersion.exe"
+                "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-32.exe"
             }
-        },
-        "hash": {
-            "url": "https://dl.bintray.com/conan/installers/$basename.sha256"
         }
     }
 }

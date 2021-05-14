@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.4.0",
     "description": "Dockerfile linter",
     "homepage": "https://github.com/hadolint/hadolint",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hadolint/hadolint/releases/download/v2.0.0/hadolint-Windows-x86_64.exe#/hadolint.exe",
-            "hash": "9ba068aab60f6ca49369cecc0d2e6165e3c64e1a8518de0e159033f56ff0b5e7"
+            "url": "https://github.com/hadolint/hadolint/releases/download/v2.4.0/hadolint-Windows-x86_64.exe#/hadolint.exe",
+            "hash": "e3ad16b43a9f9c20298934e6cf434bc24d280bbc9f52b5a102952a5b9c7cd6d0"
         }
     },
     "bin": "hadolint.exe",
