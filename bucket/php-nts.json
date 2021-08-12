@@ -1,5 +1,5 @@
 {
-    "version": "8.0.6",
+    "version": "8.0.9",
     "description": "A popular general-purpose scripting language that is especially suited to web development. (non-thread safe)",
     "homepage": "https://windows.php.net/",
     "license": "PHP-3.01",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://windows.php.net/downloads/releases/php-8.0.6-nts-Win32-vs16-x64.zip",
-            "hash": "cc06b98185cd7c09266ee1e87a9bd7e48c4bf956d661fb432dfc295352a4a81d"
+            "url": "https://windows.php.net/downloads/releases/php-8.0.9-nts-Win32-vs16-x64.zip",
+            "hash": "0824078c564be0b04b043a7e1842ba13b0787db7fc540a1af27a40a84ecb646c"
         },
         "32bit": {
-            "url": "https://windows.php.net/downloads/releases/php-8.0.6-nts-Win32-vs16-x86.zip",
-            "hash": "de0ffd387a8626246b247162113a2a27f3998bde27a6d8a1ded9737ad8ac5865"
+            "url": "https://windows.php.net/downloads/releases/php-8.0.9-nts-Win32-vs16-x86.zip",
+            "hash": "04149ba86ef7f3c631ae11efd4d3e49e1dd5dbf69bfdc0b139001a4d29137b6d"
         }
     },
     "pre_install": [

@@ -1,6 +1,6 @@
 {
-    "version": "5.1.7",
-    "description": "NoSQL database built on .NET Core.",
+    "version": "5.2.1",
+    "description": "NoSQL database built on .NET Core",
     "homepage": "https://ravendb.net",
     "license": {
         "identifier": "Freeware",
@@ -11,12 +11,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.1.7-windows-x64.zip",
-            "hash": "3d0901f679f3d0746dc77750905d9c7829735b496b1aed109c91c43c04ca8d64"
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.2.1-windows-x64.zip",
+            "hash": "6a177028c28e877280561da445c2c71768712c214da12e480ce05f5649aff6ff"
         },
         "32bit": {
-            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.1.7-windows-x86.zip",
-            "hash": "ff5d80376dcfc51cc8f67c28470177181293a8e6804626fcf1b18ecc8b709574"
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.2.1-windows-x86.zip",
+            "hash": "02b862967856f0343093935c2a84eeab200946e47ac728cffba7d690bdfcb088"
         }
     },
     "installer": {
@@ -45,8 +45,8 @@
     ],
     "persist": "Server\\settings.json",
     "checkver": {
-        "url": "https://ravendb.net/download",
-        "regex": "Latest STABLE <span class=\"text-primary\">([\\d.]+)</span></h1>"
+        "url": "https://ravendb.net/whats-new",
+        "regex": "([\\d.]+)\\s*\\(\\d+"
     },
     "autoupdate": {
         "architecture": {

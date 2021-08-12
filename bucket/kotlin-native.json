@@ -1,5 +1,5 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.21",
     "description": "An LLVM backend for the Kotlin compiler, runtime implementation, and native code generation facility using the LLVM toolchain for native binaries runnable without a virtual machine.",
     "homepage": "https://kotlinlang.org",
     "license": "Apache-2.0",
@@ -7,9 +7,9 @@
     "suggest": {
         "Kotlin": "kotlin"
     },
-    "url": "https://github.com/JetBrains/kotlin/releases/download/v1.5.0/kotlin-native-windows-1.5.0.zip",
-    "hash": "5755391536bcac49c7ef87e0788e595d38776af534eb08cc5ab8879e9f1a855d",
-    "extract_dir": "kotlin-native-windows-1.5.0",
+    "url": "https://github.com/JetBrains/kotlin/releases/download/v1.5.21/kotlin-native-windows-1.5.21.zip",
+    "hash": "9da4f5c2f98ac003a062c5a18260a5ed52154b5506d045539f0f3c1bfadf6b01",
+    "extract_dir": "kotlin-native-windows-1.5.21",
     "bin": [
         "bin\\cinterop.bat",
         "bin\\jsinterop.bat",

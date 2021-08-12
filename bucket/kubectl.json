@@ -1,16 +1,16 @@
 {
-    "version": "1.21.1",
+    "version": "1.22.0",
     "description": "Control the Kubernetes cluster manager.",
     "homepage": "https://kubernetes.io/docs/user-guide/kubectl-overview/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/kubernetes-release/release/v1.21.1/kubernetes-client-windows-amd64.tar.gz",
-            "hash": "4e013fa5563d03a5e6c7dcbe56dabcc82c866bac28ec268500dfaf8a8fcdfb7c"
+            "url": "https://storage.googleapis.com/kubernetes-release/release/v1.22.0/kubernetes-client-windows-amd64.tar.gz",
+            "hash": "5937c2c0cfa956c16c6bc0c2fb1f628686e74224e3145b68d3773a278e1c7e0d"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/kubernetes-release/release/v1.21.1/kubernetes-client-windows-386.tar.gz",
-            "hash": "80894bd11dd9c2df9367670c0a10129d177c3d8683bf6572bbaedd1b45914586"
+            "url": "https://storage.googleapis.com/kubernetes-release/release/v1.22.0/kubernetes-client-windows-386.tar.gz",
+            "hash": "c689ba30c75b72214955e7abe7d54e43bb9960cda88dddb20eee596080cf2ca7"
         }
     },
     "extract_dir": "kubernetes\\client",

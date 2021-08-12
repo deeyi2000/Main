@@ -1,5 +1,5 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.21",
     "description": "A cross-platform, statically typed, general-purpose programming language with type inference.",
     "homepage": "https://kotlinlang.org/",
     "license": "Apache-2.0",
@@ -9,8 +9,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/JetBrains/kotlin/releases/download/v1.5.0/kotlin-compiler-1.5.0.zip",
-    "hash": "0343fc1f628fec1beccc9e534d2b8b7a0f8964b97e21563585d44d6d928ed1b7",
+    "url": "https://github.com/JetBrains/kotlin/releases/download/v1.5.21/kotlin-compiler-1.5.21.zip",
+    "hash": "f3313afdd6abf1b8c75c6292f4e41f2dbafefc8f6c72762c7ba9b3daeef5da59",
     "extract_dir": "kotlinc",
     "bin": [
         "bin\\kotlin.bat",

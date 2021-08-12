@@ -1,11 +1,11 @@
 {
-    "version": "1.11.4",
+    "version": "1.12.2",
     "description": "A dynamic and functional programming language designed for building scalable and maintainable applications.",
     "homepage": "https://elixir-lang.org/",
     "license": "Apache-2.0",
     "depends": "erlang",
-    "url": "https://github.com/elixir-lang/elixir/releases/download/v1.11.4/Precompiled.zip",
-    "hash": "c5d14e66f748d711a167d7526ec71c2d67a7ca3ebd604d9686d035be86ea6c83",
+    "url": "https://github.com/elixir-lang/elixir/releases/download/v1.12.2/Precompiled.zip",
+    "hash": "9a55d77dea7e3c1b2749809a6e57399d9cd5eced01582f42b3d4d6063c67f7d4",
     "env_add_path": "bin",
     "checkver": {
         "github": "https://github.com/elixir-lang/elixir"

@@ -1,19 +1,18 @@
 {
-    "version": "2.31.1.windows.1",
+    "version": "2.32.0.windows.2",
     "description": "Distributed version control system",
     "homepage": "https://gitforwindows.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/PortableGit-2.31.1-64-bit.7z.exe#/dl.7z",
-            "hash": "fce2161a8891c4deefdb8d215ab76498c245072f269843ef1a489c4312baef52"
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/PortableGit-2.32.0.2-64-bit.7z.exe#/dl.7z",
+            "hash": "c5efec6e470dabfb97696dce5f15c50a1173c14a8ae55d5a4cb144dd4c9cb68a"
         },
         "32bit": {
-            "url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/PortableGit-2.31.1-32-bit.7z.exe#/dl.7z",
-            "hash": "d6d48e16e3f0ecbc0a45d410ad3ebae15e5618202855ebe72cd9757e4d35b880"
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/PortableGit-2.32.0.2-32-bit.7z.exe#/dl.7z",
+            "hash": "c186d5260025203fb862343bc16ae94722f2d23fb160f083b89b0a50f54b1424"
         }
     },
-    "post_install": "git config --global credential.helper manager",
     "bin": [
         "cmd\\git.exe",
         "cmd\\gitk.exe",

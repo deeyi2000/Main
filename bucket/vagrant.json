@@ -1,16 +1,16 @@
 {
-    "version": "2.2.16",
+    "version": "2.2.18",
     "description": "A tool for building and managing virtual machine environments in a single workflow.",
     "homepage": "https://www.vagrantup.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://releases.hashicorp.com/vagrant/2.2.16/vagrant_2.2.16_x86_64.msi",
-            "hash": "bfa036fd1562c296c9a6200f312314f348cb5a8edd3de8b9843761afa1c371b7"
+            "url": "https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_x86_64.msi",
+            "hash": "aed44d72e72d2183354c7e2e0f6118e289becba0491a67eb2e5551701b70d359"
         },
         "32bit": {
-            "url": "https://releases.hashicorp.com/vagrant/2.2.16/vagrant_2.2.16_i686.msi",
-            "hash": "37c6aeb26b1f76588f541b04d76de3fff566045bc9693dcb5acb707eb1038d9e"
+            "url": "https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_i686.msi",
+            "hash": "b4f1da25cd8e536289988dcf922ba3ebd0469fe1c1de43e2c20c4ce707f491dd"
         }
     },
     "extract_dir": "HashiCorp/Vagrant",

@@ -1,18 +1,18 @@
 {
-    "version": "0.5.4",
+    "version": "0.6.2",
     "description": "du(1) - File space usage analyzer",
     "homepage": "https://github.com/bootandy/dust",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bootandy/dust/releases/download/v0.5.4/dust-v0.5.4-x86_64-pc-windows-msvc.zip",
-            "hash": "27a519e6e93fea4f7c0c53cefd145a9fd6d1cd13b57e8eac5b30169e639d4cc3",
-            "extract_dir": "dust-v0.5.4-x86_64-pc-windows-msvc"
+            "url": "https://github.com/bootandy/dust/releases/download/v0.6.2/dust-v0.6.2-x86_64-pc-windows-msvc.zip",
+            "hash": "13eabc382764c683f7a5be30f4a29fb6ab29758f8a438db7b1ee19cedcad3239",
+            "extract_dir": "dust-v0.6.2-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://github.com/bootandy/dust/releases/download/v0.5.4/dust-v0.5.4-i686-pc-windows-msvc.zip",
-            "hash": "9377c80a21d276a36a6c17419b51f5dfa0f588ab71e5de1806ecb98867de5e9d",
-            "extract_dir": "dust-v0.5.4-i686-pc-windows-msvc"
+            "url": "https://github.com/bootandy/dust/releases/download/v0.6.2/dust-v0.6.2-i686-pc-windows-msvc.zip",
+            "hash": "d70185ed6bfafcbed58e4286a6c7b0b61c66181056aeda7bb95b11f862804151",
+            "extract_dir": "dust-v0.6.2-i686-pc-windows-msvc"
         }
     },
     "bin": "dust.exe",
