@@ -1,11 +1,11 @@
 {
-    "version": "1.8.8",
+    "version": "1.8.9",
     "description": "7-Zip plugin for the leading-edge compression methods; zstd, Brotli, LZ4, LZ5, Lizard, and Fast LZMA2.",
     "homepage": "https://www.tc4shell.com/en/7zip/modern7z/",
     "license": "Unknown",
     "depends": "7zip",
     "url": "https://www.tc4shell.com/binary/Modern7z.zip",
-    "hash": "027364b67724f4c8caf643d1db7dec5238a626944724dffb6e8b6a17d59b5b83",
+    "hash": "3e879942e3c33cdc2422e7f2cfcf57819e77c8caeab6cffbc881e4e3695d2774",
     "architecture": {
         "64bit": {
             "extract_dir": "64"
