@@ -1,5 +1,5 @@
 {
-    "version": "8.2.4548",
+    "version": "8.2.4554",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "homepage": "https://www.vim.org",
     "license": "Vim",
@@ -10,12 +10,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.4548/gvim_8.2.4548_x64.zip",
+                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.4554/gvim_8.2.4554_x64.zip",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
-                "493167e7b9e61eb9bcf09baff14c3a8146452dfd0fc4922fe6ce0d49625f0a0f",
+                "fcc1ebf5a57f5eb2f18240b14574945a7ad9371e5cbbd70fdc8a5ddeaed0d09e",
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]
