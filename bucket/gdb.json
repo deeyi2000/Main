@@ -1,10 +1,10 @@
 {
-    "version": "11.1",
+    "version": "12.1",
     "description": "GNU Debugger",
     "homepage": "https://www.gnu.org/software/gdb/",
     "license": "GPL-3.0-or-later",
-    "url": "https://downloads.sourceforge.net/project/ezwinports/gdb-11.1-w32-bin.zip",
-    "hash": "ec984fcc9f5235566876a3bce0aad7d6b28510466ba0b6d65fe706ce5ddb5c97",
+    "url": "https://downloads.sourceforge.net/project/ezwinports/gdb-12.1-w32-bin.zip",
+    "hash": "sha1:d850c2da321790eab5b58413b05b22bc1b3abe6c",
     "bin": [
         "bin\\gdb.exe",
         "bin\\gdbreplay.exe",
