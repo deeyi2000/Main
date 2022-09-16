@@ -1,10 +1,10 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Dependency Management for Python",
     "homepage": "https://python-poetry.org/",
     "license": "MIT",
     "depends": "python",
-    "url": "https://raw.githubusercontent.com/python-poetry/poetry/1.2.0/get-poetry.py",
+    "url": "https://raw.githubusercontent.com/python-poetry/poetry/1.2.1/get-poetry.py",
     "hash": "e147843841c8997804cd4695be53ba61616aaa3f6bfbcf41cc346393cee4256c",
     "installer": {
         "script": "$env:POETRY_HOME=$dir; python $dir/$fname --version $version --no-modify-path -y"
