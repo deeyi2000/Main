@@ -1,5 +1,5 @@
 {
-    "version": "9.0.1721",
+    "version": "9.0.1734",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "homepage": "https://www.vim.org",
     "license": "Vim",
@@ -10,12 +10,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/vim/vim-win32-installer/releases/download/v9.0.1721/gvim_9.0.1721_x64.zip",
+                "https://github.com/vim/vim-win32-installer/releases/download/v9.0.1734/gvim_9.0.1734_x64.zip",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
-                "41e9eb9a90cdd4ac2a14cc06d8cb02a9e69e4e25b55ca546f452febcda98fd26",
+                "8df0374a31660e1ae7b2dd0785b8cd1fd33b2be511d600b0942a437b7d2fbfd2",
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]
