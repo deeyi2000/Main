@@ -3,7 +3,9 @@
     "description": "A statically typed compiled systems programming language, which combines successful concepts from mature languages like Python, Ada and Modula.",
     "homepage": "https://nim-lang.org/",
     "license": "MIT",
-    "depends": "gcc",
+    "suggest": {
+        "MinGW": "mingw-winlibs"
+    },
     "architecture": {
         "64bit": {
             "url": "https://nim-lang.org/download/nim-2.2.0_x64.zip",
@@ -49,9 +51,9 @@
         }
     },
     "installer": {
-        "script": "add_first_in_path \"$env:USERPROFILE\\.nimble\\bin\" $global"
+        "script": "Add-Path -Path \"$env:USERPROFILE\\.nimble\\bin\" -Global:$global"
     },
     "uninstaller": {
-        "script": "remove_from_path \"$env:USERPROFILE\\.nimble\\bin\" $global"
+        "script": "Remove-Path -Path \"$env:USERPROFILE\\.nimble\\bin\" -Global:$global"
     }
 }

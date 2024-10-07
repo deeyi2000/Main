@@ -1,16 +1,16 @@
 {
-    "version": "1.19.4",
+    "version": "1.22.2",
     "description": "A painless self-hosted Git service",
     "homepage": "https://gitea.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://dl.gitea.io/gitea/1.19.4/gitea-1.19.4-windows-4.0-amd64.exe.xz",
-            "hash": "d9f10ce3278a42c74474c9c69899c90bda699de702866902aa662148c58e5a48"
+            "url": "https://dl.gitea.com/gitea/1.22.2/gitea-1.22.2-windows-4.0-amd64.exe.xz",
+            "hash": "7bf5ca88a57f850f6cbe817be156cd1a33956ff6e054cdcbf8eaf71413f9d163"
         },
         "32bit": {
-            "url": "https://dl.gitea.io/gitea/1.19.4/gitea-1.19.4-windows-4.0-386.exe.xz",
-            "hash": "f97799b6670be5316f5e168994d2a6ffb506bc10fe38f48ae5409d29c98c70a1"
+            "url": "https://dl.gitea.com/gitea/1.22.2/gitea-1.22.2-windows-4.0-386.exe.xz",
+            "hash": "f4ccf005615bc5a6b0623953f1ad2546569821e5141843627feb33e6a5637419"
         }
     },
     "installer": {
@@ -40,16 +40,16 @@
         "data"
     ],
     "checkver": {
-        "url": "https://blog.gitea.io/",
-        "regex": "Gitea.*?([\\d.]+)"
+        "url": "https://dl.gitea.com/gitea/version.json",
+        "jsonpath": "$.latest.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.gitea.io/gitea/$version/gitea-$version-windows-4.0-amd64.exe.xz"
+                "url": "https://dl.gitea.com/gitea/$version/gitea-$version-windows-4.0-amd64.exe.xz"
             },
             "32bit": {
-                "url": "https://dl.gitea.io/gitea/$version/gitea-$version-windows-4.0-386.exe.xz"
+                "url": "https://dl.gitea.com/gitea/$version/gitea-$version-windows-4.0-386.exe.xz"
             }
         },
         "hash": {

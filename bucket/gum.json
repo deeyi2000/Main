@@ -13,12 +13,7 @@
             "hash": "sha512:76ba73fe90c34b06e8c94c0e095904371a44d9c2410b75345a8a69c837d42733b90f3879774ef0d99ddda67f9b12375bd4ebe2cb5df7aab0708225394b4530cb"
         }
     },
-    "bin": [
-        [
-            "gm.exe",
-            "gum"
-        ]
-    ],
+    "bin": "gm.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

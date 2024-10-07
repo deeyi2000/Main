@@ -1,22 +1,23 @@
 {
-    "##": "Version 2.8.3 was moved to https://github.com/ScoopInstaller/Versions/blob/master/bucket/lynx283.json",
+    "##": "Lynx declares that it requires Win32/32bit OpenSSL 3.0.x lib.",
     "version": "2.9.2",
     "description": "Text web browser.",
     "homepage": "https://invisible-island.net/lynx/lynx.html",
     "license": "GPL-2.0-only",
-    "suggest": {
-        "Microsoft Visual C++ Redistributables 2013": "extras/vcredist2013"
-    },
+    "notes": "Version 2.8.3 was moved to 'version/lynx283'",
     "depends": "cacert",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "innosetup": true,
     "url": [
-        "https://invisible-island.net/datafiles/current/lynx-newssl-setup.exe",
-        "https://slproweb.com/download/Win32OpenSSL_Light-1_1_1L.exe"
+        "https://invisible-island.net/archives/lynx/current/lynx-newssl2.9.2-setup.exe",
+        "https://slproweb.com/download/Win32OpenSSL_Light-3_0_15.exe"
     ],
     "hash": [
         "12165dfb4e0608a7cd25a088e439a64b6573fff07c32757e989211a04d3b20d7",
-        "sha512:75b31fcffeffd25caadbf5e0a9a71c001d1a38ce50bae8c3077b140cedce023c35f05fdfb2e29d9656ed26daa71348018efe0911df72a9bd0e1c641293eea0cb"
+        "8ec1cad86c78e5474b0ac0c41c2231f0e8ffac21ec35c0d1c209337e6983495f"
     ],
-    "innosetup": true,
     "pre_install": "if (!(Test-Path \"$persist_dir\\lynx.cfg\")) { Add-Content \"$dir\\lynx.cfg\" -Value @(\"SSL_CERT_FILE:`\"$(appdir cacert $global)\\current\\cacert.pem`\"\", \"FORCE_SSL_PROMPT:PROMPT\") -Encoding Ascii }",
     "bin": [
         [
@@ -41,6 +42,6 @@
         "regex": "[\\d-]{10}\\s+\\(([\\w.]+)\\)"
     },
     "autoupdate": {
-        "url": "https://invisible-island.net/datafiles/current/lynx-newssl-setup.exe"
+        "url": "https://invisible-island.net/archives/lynx/current/lynx-newssl$version-setup.exe"
     }
 }

@@ -1,0 +1,24 @@
+{
+    "version": "2.0.3",
+    "homepage": "https://surrealdb.com/",
+    "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web.",
+    "license": "BUSL-1.1|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.surrealdb.com/v2.0.3/surreal-v2.0.3.windows-amd64.exe#/surreal.exe",
+            "hash": "8d1ff1ebb85e63861fe2d0578dbdb9ad23012ae810526373f3afd993ca67bb85"
+        }
+    },
+    "bin": "surreal.exe",
+    "checkver": {
+        "url": "https://version.surrealdb.com/",
+        "regex": "v([\\w.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.surrealdb.com/v$version/surreal-v$version.windows-amd64.exe#/surreal.exe"
+            }
+        }
+    }
+}

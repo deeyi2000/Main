@@ -13,6 +13,11 @@
             "url": "https://github.com/klzgrad/naiveproxy/releases/download/v129.0.6668.81-1/naiveproxy-v129.0.6668.81-1-win-x86.zip",
             "hash": "c2bbef731718017d284b719a5fb1e78b44ef01bebb4aab869dd956844728f9c3",
             "extract_dir": "naiveproxy-v129.0.6668.81-1-win-x86"
+        },
+        "arm64": {
+            "url": "https://github.com/klzgrad/naiveproxy/releases/download/v129.0.6668.81-1/naiveproxy-v129.0.6668.81-1-win-arm64.zip",
+            "hash": "8ba8ba6495f0f028c7d1beb2779440bceddb557906f44e8337a17640274fd1c8",
+            "extract_dir": "naiveproxy-v129.0.6668.81-1-win-arm64"
         }
     },
     "bin": "naive.exe",
@@ -30,6 +35,10 @@
             "32bit": {
                 "url": "https://github.com/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x86.zip",
                 "extract_dir": "naiveproxy-v$version-win-x86"
+            },
+            "arm64": {
+                "url": "https://github.com/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-arm64.zip",
+                "extract_dir": "naiveproxy-v$version-win-arm64"
             }
         }
     }

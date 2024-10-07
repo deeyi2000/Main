@@ -4,10 +4,7 @@
     "homepage": "https://owasp.org/www-project-dependency-check/",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
-        ]
+        "JDK": "java/openjdk"
     },
     "url": "https://github.com/jeremylong/DependencyCheck/releases/download/v10.0.4/dependency-check-10.0.4-release.zip",
     "hash": "0ea8345571b90cf418142b3a7c918d244be2d5101c99260794e8da84d5ee7f33",

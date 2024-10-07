@@ -18,7 +18,8 @@
             }
         },
         "hash": {
-            "url": "$baseurl/cosign_checksums.txt"
+            "url": "$baseurl/cosign_checksums.txt",
+            "regex": "(?im)^$sha256\\s+$basename$"
         }
     }
 }

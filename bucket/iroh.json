@@ -1,0 +1,21 @@
+{
+    "version": "0.26.0",
+    "description": "A protocol for syncing & moving bytes",
+    "homepage": "https://github.com/n0-computer/iroh",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/n0-computer/iroh/releases/download/v0.26.0/iroh-v0.26.0-x86_64-pc-windows-msvc.zip",
+            "hash": "b3ffad108b463e903aa75c9f412c10fe72b4998cf9fa4da87692a25e12c7ec7a"
+        }
+    },
+    "bin": "iroh.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/n0-computer/iroh/releases/download/v$version/iroh-v$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}

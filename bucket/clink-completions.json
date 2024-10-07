@@ -1,14 +1,14 @@
 {
-    "version": "0.4.1",
+    "version": "0.5.4",
     "description": "Completions for various commands through Clink",
     "homepage": "https://github.com/vladimir-kotikov/clink-completions",
     "license": "MIT",
     "suggest": {
         "Clink": "clink"
     },
-    "url": "https://github.com/vladimir-kotikov/clink-completions/archive/0.4.1.zip",
-    "hash": "e40eae3ce3ac480d65527548d3eb2041decde4ece98e1c9b45be30ea855b51cb",
-    "extract_dir": "clink-completions-0.4.1",
+    "url": "https://github.com/vladimir-kotikov/clink-completions/archive/v0.5.4.zip",
+    "hash": "33a32f1bb403c449d263c150710d693d84241dbcdbcacfb8d7d558f41346abbe",
+    "extract_dir": "clink-completions-0.5.4",
     "installer": {
         "script": [
             "if (Get-Command clink -ErrorAction SilentlyContinue) {",
@@ -27,7 +27,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/vladimir-kotikov/clink-completions/archive/$version.zip",
+        "url": "https://github.com/vladimir-kotikov/clink-completions/archive/v$version.zip",
         "extract_dir": "clink-completions-$version"
     }
 }

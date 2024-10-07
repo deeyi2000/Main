@@ -11,24 +11,13 @@
         "32bit": {
             "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.19.0/v2ray-windows-32.zip",
             "hash": "72e97ab65e703cd0d09d390a1fb7e5cb25df9ad4230bf14401ad43fad88e2e93"
+        },
+        "arm64": {
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.19.0/v2ray-windows-arm64-v8a.zip",
+            "hash": "7a96a974cf1e0745956372d52a7505dca5fec6e399a7b653904af8f1dd89bdee"
         }
     },
-    "installer": {
-        "script": [
-            "Write-Host 'Verifying V2Ray binary...' -f Yellow",
-            "$sig = \"$dir\\Release\"",
-            "Invoke-WebRequest \"https://github.com/v2fly/v2ray-core/releases/download/v$version/Release\" -OutFile $sig",
-            "if (!(Invoke-Expression \"$dir\\v2ctl.exe verify --sig=$sig $dir\\v2ray.exe\" | Select-String 'OK')) {",
-            "    Write-Host 'V2Ray binary is corrupted!' -f Red",
-            "    exit 1",
-            "}"
-        ]
-    },
-    "bin": [
-        "v2ctl.exe",
-        "v2ray.exe",
-        "wv2ray.exe"
-    ],
+    "bin": "v2ray.exe",
     "persist": "config.json",
     "checkver": {
         "github": "https://github.com/v2fly/v2ray-core"
@@ -40,11 +29,14 @@
             },
             "32bit": {
                 "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-arm64-v8a.zip"
             }
         },
         "hash": {
             "url": "$url.dgst",
-            "regex": "SHA512= $sha512"
+            "regex": "SHA2-256= $sha256"
         }
     }
 }

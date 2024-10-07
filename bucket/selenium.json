@@ -4,10 +4,7 @@
     "homepage": "https://selenium.dev",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": [
-            "java/openjdk",
-            "java/oraclejdk"
-        ]
+        "JDK": "java/openjdk"
     },
     "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.25.0/selenium-server-4.25.0.jar#/selenium.jar",
     "hash": "bde3bda5017170711e799631df978510de9176dafafb5fd2ea59b2923f654c91",

@@ -11,6 +11,10 @@
         "32bit": {
             "url": "https://github.com/nektos/act/releases/download/v0.2.68/act_Windows_i386.zip",
             "hash": "4508955bfa66266867686147ede96a40cf26e38b284246104760bed46f4e8c7b"
+        },
+        "arm64": {
+            "url": "https://github.com/nektos/act/releases/download/v0.2.68/act_Windows_arm64.zip",
+            "hash": "74abc04a08e771f0d637f7b76a5ace694b1d01374b15f09ce7cae4f965a341b7"
         }
     },
     "bin": "act.exe",
@@ -22,6 +26,9 @@
             },
             "32bit": {
                 "url": "https://github.com/nektos/act/releases/download/v$version/act_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/nektos/act/releases/download/v$version/act_Windows_arm64.zip"
             }
         },
         "hash": {

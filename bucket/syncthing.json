@@ -3,7 +3,7 @@
     "description": "Open Source Continuous File Synchronization.",
     "homepage": "https://syncthing.net/",
     "license": "MPL-2.0",
-    "notes": "To start syncthing automatically, use a method described at https://github.com/syncthing/docs/blob/main/users/autostart.rst#windows",
+    "notes": "To start syncthing automatically, use a method described at https://docs.syncthing.net/users/autostart.html#windows",
     "architecture": {
         "64bit": {
             "url": "https://github.com/syncthing/syncthing/releases/download/v1.27.12/syncthing-windows-amd64-v1.27.12.zip",
@@ -14,6 +14,11 @@
             "url": "https://github.com/syncthing/syncthing/releases/download/v1.27.12/syncthing-windows-386-v1.27.12.zip",
             "hash": "16a282d4889a3a8c42cb2046b107ad29d1eb2fc135a61d817dae4dd12a876ac7",
             "extract_dir": "syncthing-windows-386-v1.27.12"
+        },
+        "arm64": {
+            "url": "https://github.com/syncthing/syncthing/releases/download/v1.27.12/syncthing-windows-arm64-v1.27.12.zip",
+            "hash": "92aa1213b70e0b5059a0d622be2ff814005b8fe4bcc82e4fe391669189de8405",
+            "extract_dir": "syncthing-windows-arm64-v1.27.12"
         }
     },
     "pre_install": [
@@ -43,6 +48,10 @@
             "32bit": {
                 "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-386-v$version.zip",
                 "extract_dir": "syncthing-windows-386-v$version"
+            },
+            "arm64": {
+                "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-arm64-v$version.zip",
+                "extract_dir": "syncthing-windows-arm64-v$version"
             }
         },
         "hash": {

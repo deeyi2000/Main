@@ -1,23 +1,20 @@
 {
-    "version": "4.2.3",
+    "version": "4.6.3",
     "description": "Micronaut - A modern, JVM-based (Java, Groovy, Kotlin), full-stack framework for building modular and testable microservice and serverless applications",
     "homepage": "https://micronaut.io",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
-        ]
+        "JDK": "java/openjdk"
     },
-    "url": "https://github.com/micronaut-projects/micronaut-starter/releases/download/v4.2.3/micronaut-cli-4.2.3.zip",
-    "hash": "3133a8d2aeac83a4fab3bfaecc19b6429635084b2cb312b5bae433f85a8445e6",
-    "extract_dir": "micronaut-cli-4.2.3",
+    "url": "https://github.com/micronaut-projects/micronaut-starter/releases/download/v4.6.3/micronaut-cli-4.6.3.zip",
+    "hash": "9c299c978f5e4d96524ca32cc6a6bb248782513e4d31dac5fe40c08c47f91254",
+    "extract_dir": "micronaut-cli-4.6.3",
     "bin": "bin\\mn.bat",
     "env_set": {
         "MICRONAUT_HOME": "$dir"
     },
     "checkver": {
-        "github": "https://github.com/micronaut-projects/micronaut-core"
+        "github": "https://github.com/micronaut-projects/micronaut-starter"
     },
     "autoupdate": {
         "url": "https://github.com/micronaut-projects/micronaut-starter/releases/download/v$version/micronaut-cli-$version.zip",

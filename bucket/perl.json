@@ -1,16 +1,12 @@
 {
-    "version": "5.32.1.1",
+    "version": "5.40.0.1",
     "description": "A programming language suitable for writing simple scripts as well as complex applications.",
-    "homepage": "http://strawberryperl.com",
+    "homepage": "https://strawberryperl.com",
     "license": "GPL-1.0-or-later|Artistic-1.0-Perl",
     "architecture": {
         "64bit": {
-            "url": "http://strawberryperl.com/download/5.32.1.1/strawberry-perl-5.32.1.1-64bit-portable.zip",
-            "hash": "sha1:fac226b31461f2392702822052a3a5628917f857"
-        },
-        "32bit": {
-            "url": "http://strawberryperl.com/download/5.32.1.1/strawberry-perl-5.32.1.1-32bit-portable.zip",
-            "hash": "sha1:28bca91cadd6651c2b2463db8587c170bf17f2fa"
+            "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54001_64bit_UCRT/strawberry-perl-5.40.0.1-64bit-portable.zip",
+            "hash": "754f3e2a8e473dc68d1540c7802fb166a025f35ef18960c4564a31f8b5933907"
         }
     },
     "post_install": [
@@ -24,21 +20,18 @@
         "perl\\bin"
     ],
     "checkver": {
-        "url": "http://strawberryperl.com/releases.html",
-        "regex": "strawberry-perl-([\\d.]+)-32bit-portable\\.zip"
+        "url": "https://strawberryperl.com/releases.json",
+        "regex": "releases/download/(?<tag>.+)/strawberry-perl-([\\d.]+)-64bit-portable\\.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://strawberryperl.com/download/$version/strawberry-perl-$version-64bit-portable.zip"
-            },
-            "32bit": {
-                "url": "http://strawberryperl.com/download/$version/strawberry-perl-$version-32bit-portable.zip"
+                "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/$matchTag/strawberry-perl-$version-64bit-portable.zip",
+                "hash": {
+                    "url": "https://strawberryperl.com/releases.json",
+                    "jsonpath": "$..[0].edition.portable.sha256"
+                }
             }
-        },
-        "hash": {
-            "url": "http://strawberryperl.com/releases.html",
-            "regex": "(?sm)$basename\" onclick.*?Portable edition.*?$sha1"
         }
     }
 }

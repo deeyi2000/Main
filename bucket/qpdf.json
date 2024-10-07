@@ -1,20 +1,24 @@
 {
-    "version": "10.6.3",
+    "version": "11.9.1",
     "description": "A command-line program that does structural, content-preserving transformations on PDF files.",
-    "homepage": "http://qpdf.sourceforge.net/",
+    "homepage": "https://qpdf.sourceforge.net/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.6.3/qpdf-10.6.3-bin-mingw64.zip",
-            "hash": "sha1:885bf5c485392444013aba2acda64499d85fc299"
+            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/11.9.1/qpdf-11.9.1-mingw64.zip",
+            "hash": "sha1:568f76295408b6772bb16f18129342348e708f86",
+            "extract_dir": "qpdf-11.9.1-mingw64"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.6.3/qpdf-10.6.3-bin-mingw32.zip",
-            "hash": "sha1:280a3d607e7b4deff39b198fdb3f45015b82ad0c"
+            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/11.9.1/qpdf-11.9.1-mingw32.zip",
+            "hash": "sha1:eab59e265d35f0278120c92cc45d9ef1bcbb024a",
+            "extract_dir": "qpdf-11.9.1-mingw32"
         }
     },
-    "extract_dir": "qpdf-10.6.3",
-    "bin": "bin\\qpdf.exe",
+    "bin": [
+        "bin\\qpdf.exe",
+        "bin\\fix-qdf.exe"
+    ],
     "checkver": {
         "github": "https://github.com/qpdf/qpdf",
         "regex": "qpdf-([\\d.]+)-"
@@ -22,12 +26,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/$version/qpdf-$version-bin-mingw64.zip"
+                "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/$version/qpdf-$version-mingw64.zip",
+                "extract_dir": "qpdf-$version-mingw64"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/$version/qpdf-$version-bin-mingw32.zip"
+                "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/$version/qpdf-$version-mingw32.zip",
+                "extract_dir": "qpdf-$version-mingw32"
             }
-        },
-        "extract_dir": "qpdf-$version"
+        }
     }
 }

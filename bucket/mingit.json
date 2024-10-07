@@ -1,5 +1,5 @@
 {
-    "version": "2.46.2.windows.1",
+    "version": "2.46.2",
     "description": "Minimal Git for Windows (MinGit) is a reduced sized package designed to support application integration (like integrated development environments, graph visualizers, etc.) where full console support (colorization, pagniation, etc.) is not needed.",
     "homepage": "https://git-for-windows.github.io/",
     "license": "GPL-2.0-only",
@@ -26,21 +26,22 @@
         "GIT_INSTALL_ROOT": "$dir"
     },
     "checkver": {
-        "github": "https://github.com/git-for-windows/git",
-        "regex": "v([\\w.]+)/MinGit-(?<full>[\\w.]+)-64-bit"
+        "url": "https://api.github.com/repositories/23216272/releases/latest",
+        "jsonpath": "$..browser_download_url",
+        "regex": "download/v(?<tag>[\\d.]+windows\\.\\d)/MinGit-([\\d.]+)-64"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/git-for-windows/git/releases/download/v$version/MinGit-$matchFull-64-bit.zip"
+                "url": "https://github.com/git-for-windows/git/releases/download/v$matchTag/MinGit-$version-64-bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/git-for-windows/git/releases/download/v$version/MinGit-$matchFull-32-bit.zip"
+                "url": "https://github.com/git-for-windows/git/releases/download/v$matchTag/MinGit-$version-32-bit.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/git-for-windows/git/releases/tag/v$version",
-            "regex": "<td>$basename</td>\\s*<td>$sha256</td>"
+            "url": "https://github.com/git-for-windows/git/releases/tag/v$matchTag",
+            "regex": "(?s)$basename.*?$sha256"
         }
     }
 }

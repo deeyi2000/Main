@@ -1,15 +1,26 @@
 {
-    "version": "0.4.0",
+    "version": "0.9.2",
     "description": "An HTTP proxy server to automatically authenticate through an NTLM proxy.",
     "homepage": "https://github.com/genotrance/px",
     "license": "MIT",
-    "url": "https://github.com/genotrance/px/releases/download/v0.4.0/px.exe",
-    "hash": "93b54b5b6154c536f7ec0a85ed90ea25aa5ed66c7f61d2acbc37cab8a9231440",
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\px.ini\")) { New-Item \"$dir\\px.ini\" -ItemType File | Out-Null }",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/genotrance/px/releases/download/v0.9.2/px-v0.9.2-windows-amd64.zip",
+            "hash": "0e492431ef836091d34f44a6de8caf2a0aaef1737ba7b8202fa54285a5db4101"
+        }
+    },
+    "pre_install": [
+        "if (Test-Path -PathType Container \"$persist_dir\\px.ini\") { Remove-Item \"$persist_dir\\px.ini\" } # removes folder px.ini if exists",
+        "if (!(Test-Path \"$persist_dir\\px.ini\")) { New-Item \"$dir\\px.ini\" | Out-Null } # creates config file px.ini if doesn't exist"
+    ],
     "bin": "px.exe",
     "persist": "px.ini",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/genotrance/px/releases/download/v$version/px.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/genotrance/px/releases/download/v$version/px-v$version-windows-amd64.zip"
+            }
+        }
     }
 }

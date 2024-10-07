@@ -18,7 +18,7 @@
         "bin\\ssh-keyscan.exe",
         "bin\\ssh.exe"
     ],
-    "checkver": "New Version<.*\\n<b>OpenSSH (?<version>[\\d.\\-p]+)<br />",
+    "checkver": "New Version<.*\\n<b>OpenSSH (?<version>[\\d.\\-pv]+)<br />",
     "autoupdate": {
         "url": "https://www.mls-software.com/files/setupssh-$version.exe#/dl.7z",
         "hash": {

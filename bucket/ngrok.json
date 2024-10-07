@@ -1,37 +1,38 @@
 {
-    "version": "2.3.41",
+    "version": "3.16.1",
     "description": "Spend more time programming. One command for an instant, secure URL to your localhost server through any NAT or firewall.",
     "homepage": "https://ngrok.com/",
     "license": {
         "identifier": "Shareware",
         "url": "https://ngrok.com/tos"
     },
+    "notes": "There are breaking changes in v3 of ngrok. For details, see: https://ngrok.com/docs/guides/upgrade-v2-v3. To stay on v2, install versions/ngrok2",
     "architecture": {
         "64bit": {
-            "url": "https://bin.equinox.io/a/hd2BBHau1GR/ngrok-2.3.41-windows-amd64.zip",
-            "hash": "b4989ca45f19bb5aff3ea61ccf316374b5d3f1dc787c83b80f354914cfa37f36"
+            "url": "https://bin.equinox.io/a/5BZzsvLCaBc/ngrok-v3-3.16.1-windows-amd64.zip",
+            "hash": "c457c3e1c3e5d248a32b92c81282554820f6b12e2f4c18d7809fc251dbb21f7f"
         },
         "32bit": {
-            "url": "https://bin.equinox.io/a/4i4sQ4zMCpQ/ngrok-2.3.41-windows-386.zip",
-            "hash": "fe1b3b283050c47e3eb568420170b9efaa92202f4d43858715b04e1037f961bb"
+            "url": "https://bin.equinox.io/a/khR4v95vf41/ngrok-v3-3.16.1-windows-386.zip",
+            "hash": "b1a2578583e7310bac3277291ddfc553fb663eefbc0bcfbcb12a7c2bf8632d8d"
         }
     },
     "bin": "ngrok.exe",
     "checkver": {
-        "url": "https://dl.equinox.io/ngrok/ngrok/stable/archive",
-        "regex": "/a/(?<hash64bit>\\w+)/ngrok-([\\d.]+)-windows-amd64.zip(?:.|\\n)+?/a/(?<hash32bit>\\w+)/ngrok-([\\d.]+)-windows-386.zip"
+        "url": "https://dl.equinox.io/ngrok/ngrok-v3/stable/archive",
+        "regex": "/a/(?<hash64bit>\\w+)/ngrok-v[\\d.]+-([\\d.]+)-windows-amd64.zip(?:.|\\n)+?/a/(?<hash32bit>\\w+)/ngrok-v[\\d.]+-([\\d.]+)-windows-386.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://bin.equinox.io/a/$matchHash64bit/ngrok-$version-windows-amd64.zip"
+                "url": "https://bin.equinox.io/a/$matchHash64bit/ngrok-v$majorVersion-$version-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://bin.equinox.io/a/$matchHash32bit/ngrok-$version-windows-386.zip"
+                "url": "https://bin.equinox.io/a/$matchHash32bit/ngrok-v$majorVersion-$version-windows-386.zip"
             }
         },
         "hash": {
-            "url": "https://dl.equinox.io/ngrok/ngrok/stable/archive",
+            "url": "https://dl.equinox.io/ngrok/ngrok-v3/stable/archive",
             "regex": "$url(?:.|\\n)+?value=\"(\\w+)"
         }
     }

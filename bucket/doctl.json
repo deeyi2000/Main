@@ -11,6 +11,10 @@
         "32bit": {
             "url": "https://github.com/digitalocean/doctl/releases/download/v1.115.0/doctl-1.115.0-windows-386.zip",
             "hash": "5ae72de9199cdf27aad21a6ab824d7487e2a1df894a53e4cfa2014d4b957842d"
+        },
+        "arm64": {
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.115.0/doctl-1.115.0-windows-arm64.zip",
+            "hash": "5be6d4a8284cadebc7da1a61ae7ecce5b3178928b628c04d71f63819eaff7b35"
         }
     },
     "bin": "doctl.exe",
@@ -22,6 +26,9 @@
             },
             "32bit": {
                 "url": "https://github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-arm64.zip"
             }
         },
         "hash": {

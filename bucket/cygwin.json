@@ -6,30 +6,31 @@
         "identifier": "GPL-3.0-or-later,X11,Public Domain",
         "url": "https://cygwin.com/faq.html#faq.what.free"
     },
-    "notes": "To start a Cygwin shell, type \"cygwin\"",
+    "notes": "To start a Cygwin shell, type \"cygwin\".",
     "architecture": {
         "64bit": {
             "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe",
-            "hash": "9aeacdcf8ff71e2d1a1f9b4685eac12c4de4bb312d44ddac2c7b226f5952bfde"
+            "hash": "e7815d360ab098fdd1f03f10f43f363c73a632e8866e304c72573cf1e6a0dec8"
         },
         "32bit": {
             "url": "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe",
-            "hash": "2f1fb00d2693c431d6878799fce00e86a1a238afb8fd4289590708861fb27d8a"
+            "hash": "daf39439cf53968043c0f5944853abf571859fcfdf63dfd3a4f84d7f60d65ee4"
         }
     },
-    "checkver": {
-        "regex": ">release_([\\d.]+)<",
-        "url": "https://cygwin.com/git/?p=cygwin-apps/setup.git;a=tags"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe"
-            },
-            "32bit": {
-                "url": "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe"
-            }
-        }
+    "pre_install": "persist_data @{persist = @('packages', 'root')} $original_dir $persist_dir",
+    "installer": {
+        "args": [
+            "--no-admin",
+            "--no-shortcuts",
+            "--quiet-mode",
+            "--local-package-dir",
+            "$dir\\packages",
+            "--root",
+            "$dir\\root",
+            "--site",
+            "https://mirrors.kernel.org/sourceware/cygwin/"
+        ],
+        "keep": true
     },
     "bin": [
         [
@@ -38,18 +39,6 @@
             "--login -i"
         ]
     ],
-    "installer": {
-        "args": [
-            "--no-admin",
-            "--no-shortcuts",
-            "--quiet-mode",
-            "--local-package-dir \"$persist_dir\\packages\"",
-            "--root \"$persist_dir\\root\"",
-            "--site \"https://mirrors.kernel.org/sourceware/cygwin/\""
-        ],
-        "keep": true
-    },
-    "pre_install": "persist_data @{persist = @('packages', 'root')} $original_dir $persist_dir",
     "shortcuts": [
         [
             "root\\Cygwin.bat",
@@ -68,5 +57,20 @@
             "-i \"$dir\\root\\Cygwin-Terminal.ico\" -",
             "root\\Cygwin-Terminal.ico"
         ]
-    ]
+    ],
+    "pre_uninstall": "unlink_persist_data @{persist = @('packages', 'root')} $dir",
+    "checkver": {
+        "url": "https://cygwin.com/git/?p=cygwin-apps/setup.git;a=tags",
+        "regex": ">release_([\\d.]+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe"
+            },
+            "32bit": {
+                "url": "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe"
+            }
+        }
+    }
 }
