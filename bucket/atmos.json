@@ -1,16 +1,16 @@
 {
-    "version": "1.111.0",
+    "version": "1.113.0",
     "description": "Terraform Orchestration Tool for DevOps",
     "homepage": "https://atmos.tools",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudposse/atmos/releases/download/v1.111.0/atmos_1.111.0_windows_amd64.exe#/atmos.exe",
-            "hash": "e435ebd25bf584199e77bc5c98b83260ef3f1b83aa4a6746b64a5dc97118337b"
+            "url": "https://github.com/cloudposse/atmos/releases/download/v1.113.0/atmos_1.113.0_windows_amd64.exe#/atmos.exe",
+            "hash": "9226c6932e565453b602ba83c1ba55c6df48b94c7b6748838cf8ade55ac33de2"
         },
         "32bit": {
-            "url": "https://github.com/cloudposse/atmos/releases/download/v1.111.0/atmos_1.111.0_windows_386.exe#/atmos.exe",
-            "hash": "b29bedca20da22b7b9591e41875b791284cc3749f6466831f08f16e51efb361d"
+            "url": "https://github.com/cloudposse/atmos/releases/download/v1.113.0/atmos_1.113.0_windows_386.exe#/atmos.exe",
+            "hash": "05bf7223b41276c1f8be0e6b52b25f84a5fb55965ae78ddc19b423a5749f3151"
         }
     },
     "bin": "atmos.exe",
