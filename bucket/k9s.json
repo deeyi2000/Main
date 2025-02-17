@@ -1,16 +1,16 @@
 {
-    "version": "0.40.2",
+    "version": "0.40.3",
     "description": "Kubernetes Clusters manager",
     "homepage": "https://github.com/derailed/k9s",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/derailed/k9s/releases/download/v0.40.2/k9s_Windows_amd64.zip",
-            "hash": "53243e4aa822b69682f2c5790e4b586406c8eb66b957ee4b7160aa793c13948d"
+            "url": "https://github.com/derailed/k9s/releases/download/v0.40.3/k9s_Windows_amd64.zip",
+            "hash": "041597b89d1cc9b7665da3d02df39a3d9b5584030f96a7ae4cedd76626400eb6"
         },
         "arm64": {
-            "url": "https://github.com/derailed/k9s/releases/download/v0.40.2/k9s_Windows_arm64.zip",
-            "hash": "9a4091290d4ca18fde8c6c4da3d774f6f9c638c333992c72740a7df71e3ac444"
+            "url": "https://github.com/derailed/k9s/releases/download/v0.40.3/k9s_Windows_arm64.zip",
+            "hash": "eb40d6db044deea4697a9ecfad06ded4d19a00693b0d2cafb736d4bfac8e519d"
         }
     },
     "bin": "k9s.exe",
