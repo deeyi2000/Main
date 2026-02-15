@@ -1,12 +1,12 @@
 {
-    "version": "4.5.0",
+    "version": "4.5.2",
     "description": "Create and view interactive cheatsheets on the command-line",
     "homepage": "https://github.com/cheat/cheat",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cheat/cheat/releases/download/4.5.0/cheat-windows-amd64.exe.zip",
-            "hash": "d59f4148467447e7a53532aafba7a052c0ac1dc87bc96e5db57299795f37926b"
+            "url": "https://github.com/cheat/cheat/releases/download/4.5.2/cheat-windows-amd64.exe.zip",
+            "hash": "bedd0a2b8c5ed1a185d9902adb4fb97d845f34bc64c5be59a61300cb45f0d573"
         }
     },
     "pre_install": [
