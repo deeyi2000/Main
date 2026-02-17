@@ -1,23 +1,23 @@
 {
-    "version": "2.10.0",
+    "version": "2.10.1",
     "description": "Go language linters aggregator",
     "homepage": "https://golangci-lint.run/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.10.0/golangci-lint-2.10.0-windows-amd64.zip",
-            "hash": "1c19ddf07dfbdc8f06358779f40fc06272bc6ba8864893df4d951b7042959fc6",
-            "extract_dir": "golangci-lint-2.10.0-windows-amd64"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.10.1/golangci-lint-2.10.1-windows-amd64.zip",
+            "hash": "c60c87695e79db8e320f0e5be885059859de52bb5ee5f11be5577828570bc2a3",
+            "extract_dir": "golangci-lint-2.10.1-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.10.0/golangci-lint-2.10.0-windows-386.zip",
-            "hash": "94da68d43d2a319f9b346ed217f371b21f3b671eb9f94e87833ed3f16d08eff5",
-            "extract_dir": "golangci-lint-2.10.0-windows-386"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.10.1/golangci-lint-2.10.1-windows-386.zip",
+            "hash": "a40bc091c10cea84eaee1a90b84b65f5e8652113b0a600bb099e4e4d9d7caddb",
+            "extract_dir": "golangci-lint-2.10.1-windows-386"
         },
         "arm64": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.10.0/golangci-lint-2.10.0-windows-arm64.zip",
-            "hash": "74c943fcf07805dbe9cb4f0ce74250a0bf307951d1664c4499707f2696151ddf",
-            "extract_dir": "golangci-lint-2.10.0-windows-arm64"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.10.1/golangci-lint-2.10.1-windows-arm64.zip",
+            "hash": "636ab790c8dcea8034aa34aba6031ca3893d68f7eda000460ab534341fadbab1",
+            "extract_dir": "golangci-lint-2.10.1-windows-arm64"
         }
     },
     "bin": "golangci-lint.exe",
